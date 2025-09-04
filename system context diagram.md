@@ -17,3 +17,7 @@ verwachting: hij verwacht dat er niet dingen van andere mensen gestolen gaan wor
 | host     | de host is het persoon dat de server heeft opgericht, hij heeft de server ook zo ingesteld dat meerder mensen kunnen spelen.     | blijdschap, macht, exhibitionisme |
 | admin  | de admin is het persoon dat orde in de server wilt behouden     | veiligheid, orde |
 | mojang  | mojang is het bedrijf dat minecraft maakt  | macht, geld, data |
+
+
+system context diagram
+![alt text](<minecraft system context diagram 2025-09-04 210351.png>)
