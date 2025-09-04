@@ -3,3 +3,7 @@ Ik ben de installatie van de ESP gaan doen, eerst lukte de install.bat command n
 Bij deze stap: idf.py -p COM8 flash monitor, had ik niet goed gelezen dat ik moet kijken welke COM poort de ESP gebruikte, deze had ik van 8 naar 3 veranderd en daarna werkte dat wel. Na veel vragen is het uiteindelijk wel gelukt en werkt het.
 
 ![ESP installatie foto](../foto's/esp%20les%201%202025-09-01%20114036.png)
+
+
+Dit is nog een foto dat laat zien de het programmeren van ESP32 en het uploaden via idf.py is gelukt.
+![ESP installatie foto](<../foto's/esp les 1 flash monitor 2025-09-04 204752.png>)
