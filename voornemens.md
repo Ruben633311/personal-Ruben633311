@@ -1,4 +1,5 @@
 Naam: Ruben Kroon
+
 Studentnummer: 1880525
 
 Ik wil werken aan hoe ik samenwerk, communiceer, plan en scrum-board bijhoud zodat ik beter en gerichter kan werken.
