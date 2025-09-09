@@ -1,2 +1,23 @@
-/RGBled/build/
-/Rled/build/
+# Ignore executable files
+*.exe
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore Python cache
+_pycache_/
+*.pyc
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# ignore build directories
+build/
+dist/
