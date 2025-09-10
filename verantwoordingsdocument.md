@@ -96,14 +96,14 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 Leeruitkomst 1 Groepsopdrachten:
 
 Portfolio-item	Beschrijving	Bewijslast
-Portfolio-item A	plaats hier een korte uitleg over wat je hebt gedaan	link naar …
+Portfolio-item A	plaats hier een korte uitleg over wat je hebt gedaan	link naar https://hogeschoolutrecht-my.sharepoint.com/:p:/g/personal/jochem_hoekstra_student_hu_nl/EZw0BxvWpIxPiJbLR39vbogBiRRvhkc-cR0iTtKavbBiLA?e=EV3fP2
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
-–
+Mijn aandeel aan de OOP verdieping opdracht is dat ik het tic tac toe project online hebt gevonden door te googelen. Ik heb gekeken of het project interessant was en of het groot genoeg was om te analyseren. Ik heb uiteindelijk het GameManager class geanalyseerd en nu begrijp ik wat de class doet. Ik heb de slide over deze class ingevuld en sleutelwoorden erop geschreven, ook staan er meer uitgebreide notities bij deze slide. Deze notities zijn ook ingeleverd in de opdracht. 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
-–
+We waren vergeten de bron in de presentatie te verwerken en dat was de enige tip die we kregen.
 
 Leeruitkomst 2 : Adviseren
 Student adviseert opdrachtgever na de analyse van diens vereisten en doelstellingen over de te implementeren requirements. Het advies is helder onderbouwd en gepresenteerd. Het is goed uit te leggen aan niet-ICT-ers. Het er uit voortvloeiende ontwerp is degelijk onderbouwd en helder gedocumenteerd volgens een voorgeschreven methode, goed uit te leggen aan een volgend ontwikkelteam.
