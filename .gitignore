@@ -1,23 +1,22 @@
-# Ignore executable files
-*.exe
+# Python cache
+__pycache__/
+*.py[cod]
 
-# Ignore Visual Studio Code settings
-.vscode/
-
-# Ignore log files
-*.log
-
-# Ignore Python cache
-_pycache_/
-*.pyc
-
-# Ignore environment files
+# Virtual environments
 .env
 .venv/
 env/
 venv/
-ENV/
 
-# ignore build directories
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
+
+# Build directories
 build/
 dist/
+
+# Executable files
+*.exe

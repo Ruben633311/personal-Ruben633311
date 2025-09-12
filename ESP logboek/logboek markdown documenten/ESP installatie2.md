@@ -8,4 +8,4 @@ analogRead cmd
 ![alt text](<../foto's/esp les 2 analogRead 2025-09-02 134151.png>)
 
 flasSetter cdm
-![alt text](<../foto's/esp les 2 flag 2025-09-02 140244.png>)
+![alt text](image-2.png)

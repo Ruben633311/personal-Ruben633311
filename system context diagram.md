@@ -35,7 +35,7 @@ Key drivers:
 | rationale    | mojang wil geld en macht door mensen die minecraft kopen om op een server te spelen.  |
 | MoSCoW | must have |
 
-| NF    | de admin moet macht hebben in de server door commands te kunnen gebruiken |
+| NF3    | de admin moet macht hebben in de server door commands te kunnen gebruiken |
 |:---------|:-----:|
 | rationale    | de admin wil veiligheid hebben in de server door commands te gebruiken  |
 | MoSCoW | should have |
