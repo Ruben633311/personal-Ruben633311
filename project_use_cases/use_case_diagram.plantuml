@@ -1,0 +1,17 @@
+@startuml
+actor Operator
+
+rectangle "Spectrometer Systeem" {
+  usecase "Metingen uitvoeren" as UC1
+  usecase "Lichtbron activeren" as UC2
+  usecase "Monster plaatsen" as UC3
+  usecase "Meten en data opslaan" as UC4
+  usecase "Resultaten tonen" as UC5
+}
+
+Operator --> UC1
+UC1 --> UC2 : <<include>>
+UC1 --> UC3 : <<include>>
+UC1 --> UC4 : <<include>>
+UC1 --> UC5 : <<include>>
+@enduml
