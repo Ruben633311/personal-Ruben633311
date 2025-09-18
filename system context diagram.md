@@ -10,6 +10,7 @@ Key drivers:
 | admin  | de admin is het persoon dat orde in de server wilt behouden     | veiligheid, orde |
 | mojang  | mojang is het bedrijf dat minecraft maakt  | macht, geld, data |
 
+
 | F1    | Users kunnen minecraft op de server spelen. |
 |:---------|:-----:|
 | rationale | Users willen minecraft spelen omdat het leuk is |
@@ -43,4 +44,4 @@ Key drivers:
 
 
 system context diagram
-![alt text](<minecraft system context diagram 2025-09-04 210351.png>)
+![alt text](image.png)
