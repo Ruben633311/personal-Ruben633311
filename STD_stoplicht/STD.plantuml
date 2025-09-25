@@ -2,27 +2,27 @@
 
 [*] --> GreenLed : esp_rom_gpio_pad_select_gpio(pinButton);, gpio_reset_pin((gpio_num_t)pinButton);, gpio_set_direction((gpio_num_t)pinButton, GPIO_MODE_INPUT);
 
-GreenLed : entry/ gpio_set_level((gpio_num_t)pinGLED,0);, blinks = 0
-OrangeLed : entry/  gpio_set_level((gpio_num_t)pinRLED,0);
-RedLed :  entry/ gpio_set_level((gpio_num_t)pinGLED,1);
-RedBlink : entry/ gpio_set_level((gpio_num_t)pinGLED,1);
-OrangeBlink: entry/ gpio_set_level((gpio_num_t)pinGLED,0);, blinks++
+GreenLed : entry/ greenLed.setDuty(60);, redLed.setDuty(0); , blinks = 0
+OrangeLed : entry/  greenLed.setDuty(6);, redLed.setDuty(100);
+RedLed :  entry/ redLed.setDuty(100);
+RedBlink : entry/ greenLed.setDuty(0);, redLed.setDuty(100);
+OrangeBlink: entry/ greenLed.setDuty(6);, blinks++
 
 state c1 <<choice>>
 state c2 <<choice>>
 state c3 <<choice>>
 
-GreenLed --> c1 : after(100ms)
-c1 --> OrangeLed : [btnKlikA.isPressed()]
+GreenLed --> c1
+c1 --> OrangeLed : after(100ms)[btnKlikA.isPressed()]
 c1 ---> GreenLed : after(100ms)[else]
 OrangeLed --> RedLed : after(3s)
-c2 ---> OrangeBlink : [btnKlikB.isPressed()]
-RedBlink --> OrangeBlink : after(500ms)
-OrangeBlink --> c3 : after(100ms)
-RedLed --> c2 : after (100ms)
+c2 ---> OrangeBlink : after(100ms)[btnKlikB.isPressed()]
+OrangeBlink --> RedBlink : after(500ms)
+c3 -->  OrangeBlink : after(500ms)
+RedLed --> c2
 c2 --> RedLed : after(100ms)[else]
 c3 --> GreenLed : after(500ms)[blinks == 5]
-c3 --> RedBlink : after(500ms)[else]
+RedBlink --> c3
 
 @enduml
 
