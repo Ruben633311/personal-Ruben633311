@@ -391,6 +391,30 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `AnalogButtonReader code` | `Ik heb code gewijzigd in al gemaakte bestanden zodat de knoppen werken` | [link naar AnalogButtonReader code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/AnalogButtonReader) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb de code in AnalogButtonReader.cpp en in de main.cpp gewijzigd zodat de thresholds goed zijn voor de adc waardes die gemeten worden als knoppen worden ingedrukt, ik heb ook doxygen comments erbij gezet. In de main is een switch button neergezet waarmee tussen de states verwisseld kan worden als op een andere knop wordt gedrukt. Het lukte eerst niet om de GPIO_NUM_35 werkend te krijgen en ook niet met pin 22, maar toen realiseerde dat ik draadjes kon pakken die aan één kan verbonden zijn die ik in het andere slot van de esp 32 kon doen om wel pin 35 te kunnen gebruiken. Deze opdracht laat zien dat ik ook een opdracht met switch cases gefocust op knoppen het kan laten werken. 
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `CYD keypad document` | `Ik heb bij deze keypad opdracht een document gemaakt over de keypad opdracht` | [link naar CYD keypad document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/CYD_keypad.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+In dit document heb ik antwoord gegeven op een vraag in de opdracht en ook een foto neergezet die output in de terminal laat zien, dit laat zien dat de knoppen goed werken en ook de switch cases goed werken. Dit laat een goede werking van code in de terminal zien.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
 **Leeruitkomst 3 Groepsopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
