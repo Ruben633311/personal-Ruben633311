@@ -78,7 +78,6 @@ Succes met de uitwerking van de verantwoording!
     
     dat ik mijn best doe in de les en probeer opdrachten af te maken
     
-
 *Waar ik de afgelopen periode moeite mee heb gehad en welke actie ik heb ondernomen:*
 
     dat ik vaak veel moeite heb met oefenopdrachten en daardoor moet ik eerder vragen stellen om verder te komen
@@ -113,7 +112,44 @@ Student analyseert de vereisten en doelstellingen van de opdrachtgever betreffen
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
-Ik heb voor de opdracht een system context diagram gemaakt en key drivers gemaakt over een minecraft server en de actoren die ermee te maken hebben. Ook heb ik functionele en niet-functionele requirements gemaakt over het systeem.
+Ik heb voor de opdracht een system context diagram gemaakt en key drivers gemaakt over een minecraft server en de actoren die ermee te maken hebben. Ook heb ik functionele en niet-functionele requirements gemaakt over het systeem. Dit laat zien dat ik kan werken met een system context diagram en dat ik requirements erover kan maken.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Use Case Beschrijving` | `Voor de use case opdracht heb ik een use case beschrijving en een plantuml diagram gemaakt` | [link naar use case opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/project_use_cases) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb een use case bedracht voor de groepsopdracht waarvoor we een spectrometer gaan bouwen. Deze use case heb ik uitgewerkt in een beschrijving en in een plantuml diagram. De opdracht laat zien dat ik kan werken met een een use case. 
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Activity Diagram` | `Voor de activity diagram opdracht heb ik een diagram gemaakt van de werking van een spectrometer` | [link naar activity diagram opdracht](https://app.diagrams.net/?libs=general;uml#G1VLjGts3x4nuHO7bRDV-7rR6q33miHF62#%7B%22pageId%22%3A%220783ab3e-0a74-02c8-0abd-f7b4e66b4bec%22%7D) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb een use case bedracht voor de groepsopdracht waarvoor we een spectrometer gaan bouwen. Deze use case heb ik uitgewerkt in een activity diagram. De opdracht laat zien dat ik goed een activity diagram kan maken met een use case beschrijving. 
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Use Case Beschrijving` | `Voor de activity diagram opdracht heb ik een use case beschrijving gemaakt` | [link naar activity diagram opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/project_use_cases/use_case_beschrijving.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb een use case bedracht voor de groepsopdracht waarvoor we een spectrometer gaan bouwen. Deze use case heb ik uitgewerkt door na te denken hoe een zelfgemaakte spectrometer en programma in het echt zou kunnen werken. De opdracht laat zien dat ik een use case kan maken en gebruiken voor andere diagrammen. 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
@@ -203,11 +239,13 @@ Student ontwerpt gebaseerd op de requirements en volgens voorgeschreven methoden
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Rled` | `Ik heb wat onderzoek gedaan om antwoorden op vragen te bedenken en ik heb code werkened kunnen krijgen om de kleur rood te krijgen` | [link naar Rled opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20Rled.md) |
+| `Rled document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar Rled document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20Rled.md) |
+| `Rled code` | `Ik heb wat onderzoek gedaan om antwoorden op vragen te bedenken en ik heb code werkened kunnen krijgen om de kleur rood te krijgen` | [link naar Rled code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/Rled) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
-Ik heb op basis van de requirements van de opdracht de code gemaakt en een rode kleur kunnen krijgen op het CYD bordje
+Ik heb op basis van de requirements van de opdracht de code gemaakt en een rode kleur kunnen krijgen op het CYD bordje.
+Deze opdracht laat zien dat het was gelukt om het ledje met de kleur rood aan te zetten.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
@@ -215,11 +253,13 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `RGBled` | `Ik heb de RGBled opdracht gemaakt door de code van Rled te pakken en daarna moest ik een aantal dingen veranderen aan de code maar had hier veel moeite mee` | [link naar RGBled opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20RGBled.md) |
+| `RGBled document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar RGBled document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20RGBled.md) |
+| `RGBled code` | `Ik heb de RGBled opdracht gemaakt door de code van Rled te pakken en daarna moest ik een aantal dingen veranderen aan de code maar ik had hier veel moeite mee` | [link naar RGBled code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/RGBled) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
-Ik heb op basis van de requirements van de opdracht de code gemaakt en een loop van kleuren kunnen krijgen op het CYD bordje
+Ik heb op basis van de requirements van de opdracht de code gemaakt en een loop van kleuren kunnen krijgen op het CYD bordje.
+Deze opdracht laat zien dat ik een werkende kleuren loop kon krijgen door de code te fixen en dingen aan te passen.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
@@ -227,11 +267,12 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `PWM` | `Ik heb bij deze opdracht de voorbeeld code gekopieerd en veel aan moeten passen` | [link naar PWM opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20PWM.md) |
+| `PWM document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar PWM document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20PWM.md) |
+| `PWM code` | `Ik heb bij deze opdracht de voorbeeld code gekopieerd en veel aan moeten passen` | [link naar PWM code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/PWM) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
-Bij het maken van deze opdracht had ik moeite en heb ik geleerd hoe de duty cycle invloed heeft op de led en hoe dit gebruikt kan worden om verschillende kleuren te maken.
+Bij het maken van deze opdracht had ik moeite en heb ik geleerd hoe de duty cycle invloed heeft op de led en hoe dit gebruikt kan worden om verschillende kleuren te maken. Deze opdracht laat zien dat ik kan werken met C++ code en PWM kan gebruiken om kleuren te dimmen.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
@@ -239,11 +280,112 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `LDR` | `Ik heb bij deze opdracht de voorbeeld code gekopieerd en geleerd hoe xTaskCreatePinnedToCore ingevuld moet worden en de constructor en initialisatielijst ingevuld moet worden` | [link naar LDR opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20LDR.md) |
+| `LDR document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar LDR document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20LDR.md) |
+| `LDR code` | `Ik heb bij deze opdracht de voorbeeld code gekopieerd en geleerd hoe xTaskCreatePinnedToCore ingevuld moet worden en de constructor en initialisatielijst ingevuld moet worden` | [link naar LDR code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/LDR) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
-Bij het maken van deze opdracht had ik veel moeite en had ik veel vragen aan klasgenoten en aan Bart gesteld. Ik heb veel geleerd en gerefreshed over classes en hoe de ADC waardes van de LDR van het CYD bord gepakt kunnen worden.
+Bij het maken van deze opdracht had ik veel moeite en had ik veel vragen aan klasgenoten en aan Bart gesteld. Ik heb veel geleerd en gerefreshed over classes en hoe de ADC waardes van de LDR van het CYD bord gepakt kunnen worden. Deze opdracht laat zien dat ik kan werken met C++ code en een werkende LDR kan hebben.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `LCD drawables document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan voor deze opdracht` | [link naar LCD drawables document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/LCD_Drawables.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Dit document bewijst dat het is gelukt om alle vormen op het schermpje te krijgen. 
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `LCD drawables code` | `Ik heb bij deze opdracht in drie code bestanden gewerkt` | [link naar LCD drawables code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/LCD_drawables/main) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb in het display.hpp bestand functies met parameters toegevoegd. In de display.cpp heb ik deze functies gedefinieerd en in de main heb ik de functies gecalld zodat ze op het werkelijke display zichtbaar worden. Deze opdracht laat zien dat ik kan werken met C++ code en het kan aanpassen om een rechthoek of een cirkel op het scherm te krijgen.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Object model snoepautomaat document` | `Ik heb bij deze opdracht een snoepautomaat object model gemaakt op basis van een activity diagram` | [link naar object model snoepautomaat document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/Object_Model.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb voor deze opdracht goed gekeken naar het snoepautomaat activity diagram en op basis daarvan een object model gemaakt en object beschrijvingen daarna gemaakt.
+Dit laat zien dat ik een object model kan maken op basis van een activity diagram.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Object model NS train document` | `Ik heb bij deze opdracht een NS trein object model gemaakt op basis van twee use case beschrijvingen` | [link naar Object model NS train document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/Object_model_NS_trein.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb voor deze opdracht goed gekeken naar de use case beschrijvingen en op basis daarvan heb ik een object model en daarna object beschrijvingen gemaakt.
+Dit laat zien dat ik een object model kan maken op basis van een meerdere use case beschrijvingen.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Trafficlight Deel 1 code` | `Ik heb bij deze opdracht in meerdere code bestanden gewerkt` | [link naar Trafficlight Deel 1 code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/TrafficLight) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb in het eerste deel van de opdracht gebruik gemaakt van een button.h bestand om de knoppen werkend te krijgen en ik heb de switch states geprogrammeerd zodat het het duitse patroon van een stoplicht nadoet. Dit laat zien dat ik goed een switch case voor een ingewikkeld patroon kan coderen.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `plantuml STD Deel 1` | `Ik heb een state machine diagram gemaakt voor Deel 1 code van het stoplicht` | [link naar plantuml STD Deel 1](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/STD_stoplicht/STD.plantuml) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb een state machine diagram gemaakt waarin op een simpele manier precies te zien is hoe de logica achter de code van Deel 1 van het stoplicht werkt.
+Dit laat zien dat ik een goede STD kan maken die laat zien hoe een programma werkt.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Trafficlight Deel 2 code` | `Ik heb bij deze opdracht in meerdere code bestanden gewerkt` | [link naar Trafficlight Deel 2 code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/TrafficLight_v2) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb bij dit deel geen button.h bestand maar een ButtonTask.h bestand die de taak overneemt en het op een andere manier doet, ook moest ik erin verwerken dat de code met vlaggen werkt en dat een vlag wordt geset als op een knop wordt gedrukt en dat er steeds gecheckt wordt of een flag geset is en dus niet of een knop of dat moment ingedrukt is of niet. Dit laat zien dat ik flags in code toe kan passen zodat de code beter werkt.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `plantuml STD Deel 2` | `Ik heb een state machine diagram gemaakt voor Deel 2 code van het stoplicht` | [link naar plantuml STD Deel 2](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/STD_stoplicht/STD2.plantuml) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb een state machine diagram gemaakt waarin op een simpele manier precies te zien is hoe de logica achter de code van Deel 2 van het stoplicht werkt.
+Dit laat zien dat ik een goede STD kan maken die laat zien hoe een programma werkt.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
@@ -253,7 +395,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `` | `` | [link naar ]() |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
