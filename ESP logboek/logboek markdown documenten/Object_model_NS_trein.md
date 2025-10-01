@@ -7,10 +7,10 @@ Ik heb aan Marius vragen gesteld over het object model en ik kreeg de volgende f
 | Object Naam | Stereotype | Beschrijving |
 --- | --- | ---
 | accountgegevens | entity | bevat de accountgegevens van de machinist |
-| accountControl | control | de "dirigent" van de use case inlog |
+| accountControl | control | de "dirigent" van de use case inlog bijhouden |
 | snelheidbeheerControl | control | de "dirigent" van de use case snelheidbeheer |
 | treinverkeersregelcentrum | control | de "dirigent" van de use case treinverkeersregels |
-| motorControl | control | de "dirigent" van de use case motor |
+| motorControl | control | de "dirigent" van de use case motor besturen|
 noodstopMakenControl | control | de "dirigent" van de use case het maken van een noodstop |
 snelheidSchuif | boundary | stuurt de schuif hardware aan |
 gps | boundary | stuurt de gps hardware aan voor coordinaten |
