@@ -326,20 +326,19 @@ Dit laat zien dat ik een object model kan maken op basis van een activity diagra
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Bij het maken van deze opdracht heb ik hulp gevraagd Laurens Richter. Ik wist eerst niet wat een model beschrijving was en Laurens heeft mij uitgelegd waar ik het kon vinden en hoe het ingevuld moest worden.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Object model NS train document` | `Ik heb bij deze opdracht een NS trein object model gemaakt op basis van twee use case beschrijvingen` | [link naar Object model NS train document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/Object_model_NS_trein.md) |
+| `Object model NS trein document` | `Ik heb bij deze opdracht een NS trein object model gemaakt op basis van twee use case beschrijvingen` | [link naar Object model NS trein document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/Object_model_NS_trein.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
-Ik heb voor deze opdracht goed gekeken naar de use case beschrijvingen en op basis daarvan heb ik een object model en daarna object beschrijvingen gemaakt.
-Dit laat zien dat ik een object model kan maken op basis van een meerdere use case beschrijvingen.
+Ik heb voor deze opdracht goed gekeken naar de use case beschrijvingen en op basis daarvan heb ik een object model en daarna object beschrijvingen gemaakt. Dit laat zien dat ik een object model kan maken op basis van een meerdere use case beschrijvingen.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Ik heb aan Marius vragen gesteld over het object model en ik kreeg de volgende feedback: bij het treinverkeersregelcentrum moet er een aparte gps boundary zijn waar het centrum de locatie van de trein vandaan haalt. Bij de pijlen met de text gevaarlijkeSituatieGedetecteerd en obstakelGedetecteerd stond 'is' ervoor alsof het een vraag was maar dit klopte niet dus heb ik dit veranderd. Ook kreeg ik de tip om de text op de pijltjes met fn + f2 te zetten zodat het er beter uit ziet. Ik heb ook van Ryan, een groepgenoot feedback gekregen om de text op de pijltjes naar bijvoorbeeld object motor en van accountControl naar snelheidbeheersControl te veranderen. Ook hebben Marius en Ryan bij een paar pijltjes aangegeven dat hij de andere kant op moet richten, ik heb al dit feedback gebruikt om een betere versie van het model te maken.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
