@@ -414,6 +414,30 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Duivenschreck en Snoepautomaat KD document` | `Ik heb bij deze opdracht twee klassediagram van twee object modellen gemaakt` | [link naar Duivenschreck en Snoepautomaat KD document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/Duivenschreck_en_Snoepautomaat_KD.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Deze opdracht laat zien dat ik object modellen om kan zetten tot klasse diagrammen.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Signal Fourier Filter document` | `Ik heb bij deze opdracht code op de arduino UNO gerunt en hier een signaal uit gekregen` | [link naar Signal Fourier Filter document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/Signal_Fourier_Filter.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Deze opdracht laat zien dat ik code kan uploaden die een real-time meting doet van signalen.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
 **Leeruitkomst 3 Groepsopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
