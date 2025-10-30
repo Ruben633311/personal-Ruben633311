@@ -41,7 +41,5 @@ Key drivers:
 | rationale    | de admin wil veiligheid hebben in de server door commands te gebruiken  |
 | MoSCoW | should have |
 
-
-
 system context diagram
 ![alt text](image.png)
