@@ -1,7 +1,7 @@
 voor de Sfinae opdracht was de opdracht dat we van de code van een object willen checken of het een bepaalde memberfunctie heeft. Dit kan met SFINAE en met andere eenvoudigere runtime alternatieven. Ik heb SFINAE vergeleken met 2 runtime alternatieven door twee functies honderduizend keer te runnen en te timen hoe lang het duurt voordat de code klaar is met runnen en te kijken wat de verschillen zijn. 
 
 ## A: Snelheidsmeting van Sfinae
-Ik heb van sfinae.cpp de couts gecom  mentarieert in foo() en callFooIfExists(). Ook heb ik dus gemeten hoe lang het duurt om de volgende combi 100000 keer aan te roepen:
+Ik heb van sfinae.cpp de couts gecommentarieert in foo() en callFooIfExists(). Ook heb ik dus gemeten hoe lang het duurt om de volgende combi 100000 keer aan te roepen:
 ```c++
 callFooIfExists(a);
 callFooIfExists(b);
