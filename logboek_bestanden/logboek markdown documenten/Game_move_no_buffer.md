@@ -4,3 +4,5 @@ Ik moest in het Display.hpp bestand weer ervoor zorgen dat de functies in de cla
 
 Video van vierkant zonder backbuffer.
 <video controls src="without_backbuffer.mp4" title="Title"></video>
+
+Zoals te zien is wordt de vierkant zonder buffer niet in een keer geladen maar wordt het bij elke update van één kant weer steeds opnieuw geladen, als je wilt dat het er mooi uitziet moet je dus een buffer gebruiken.

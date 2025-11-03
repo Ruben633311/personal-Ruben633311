@@ -3,5 +3,13 @@ Voor deze opdracht heb ik twee object modellen van marius gebruikt om er klassed
 Hier het klassediagram van het duivenschreck systeem:
 ![alt text](image-13.png)
 
+Ik kreeg van Marius deze link om mijn duivenschreck klassediagram mee te vergelijken: https://canvas.hu.nl/courses/50166/files/5720116?wrap=1.
+
+Ik heb geleerd dat de RgbLedControl twee publieke functies mist. Marius heeft drie RgbLedControls in de InstelControl private staan, één voor elke instelling. Ook had ik 1 TipToets in de InstelControl, maar Marius had twee tiptoetsen allebei voor een andere knop. In de interface klasse heb ik het verkeerd opgesteld, ik moest tiptoetslistener in plaats van buttonlistener maken en ook de tiptoetsingedrukt functie gebruiken. In plaats van deze dingen heb ik mijn eigen namen en functies bedacht wat dus niet nodig was. Ik was wel in de beurt, in mijn klassediagram kan je het idee terug zien die ook in die van Marius zit, maar ik mis een aantal members en had ik verkeerde functies gebruikt.
+
 Hier het klassediagram van het snoepautomaat systeem:
 ![alt text](image-12.png)
+
+Ik kreeg van Marius deze link om mijn duivenschreck klassediagram mee te vergelijken: https://canvas.hu.nl/courses/50166/files/5720043?wrap=1.
+
+Ik zie in de klassediagram van Marius niet een productsensor klasse staan, ik weet niet of deze vergeten is of dat hij op een andere manier erin is verwerkt. ik heb staan dat het display een compositie van Artikelinvoercontroller is en dat een pijl van keyboard naar deze controller staat maar Marius heeft van de controller een pijl naar display en naar keypad staan. Ik mis veel reference pijlen, ik heb alleen references van de snoepverkoopcontroller naar listeners, de references naar afreken listener en naar keyboardlistener kloppen wel maar dan mis ik nog een refence naar artikelinvoercontrollerlistener. Ook mis ik de reference van artikelinvoercontroller en van afrekencontroller naar keypadlistener. Ik heb geen stappenmotor handler in mijn klassediagram en ik mis de 50 bij de compositiepijl van uitwerpmodule naar snoepverkoopcontroller. In de snoepverkoopcontroller kloppen veel members wel maar toch heb ik een enkele afrekenen functie en Marius heeft er twee en ik heb een timeoutopgetreden functie die Marius niet heeft. Ik haal hieruit dat er nog heel veel aan mijn klassediagram niet klopt en dat er veel verbeterd zou moeten worden voordat het wel klopt.
