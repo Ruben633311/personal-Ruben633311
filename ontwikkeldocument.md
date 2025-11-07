@@ -57,11 +57,11 @@ Functioneel 3: Ik ga eerst de scoreboard op het scherm werkend krijgen en als ik
 
 ## Leeswijzer
 
-In het uitgangspunten hoofdstuk worden het systeem context, de key drivers en de requirements besproken over mijn game project.
+In het uitgangspunten hoofdstuk worden het systeem context, de key drivers en de requirements besproken over mijn game project. Het systeem context geeft een breed idee waar het systeem van de game uit bestaat en welke actoren ermee te maken hebben. De key drivers geven duidelijk aan welke hoofdredenen er zijn om de game te maken. De requirements geven aan waar de game aan moet voldoen en op welke manier wordt in de non-functionele requirements aangegeven. 
 ``leg uit wat er in de hoogste-niveau-hoofdstukken wordt behandeld en hoe deze onderwerpen met elkaar in verband staan``
 
 ## Uitgangspunten
-
+Hier wordt uitgelegd waarom de speficieke requirements van belang zijn en vanaf welke basis de game gemaakt gaat worden. Hier een verslag van genoteerde informatie van de opdrachtgever. dus schrijf hier op welke input ik tijdens gesprekken van docenten heb gekregen
 ``Leg uit dat dit hoofdstuk de uitgangspunten voor de requirements inventariseert. Verwijs naar een appendix met genoteerde input (verslag van speech, gespreksverslagen) van de opdrachtgever - (de echte, tijdens de kickoff-meeting of diens vervanger (Marius,Bart) erna) ``
 
 ### Systeem Context
@@ -69,7 +69,7 @@ In het uitgangspunten hoofdstuk worden het systeem context, de key drivers en de
 ``Modelleer en beschrijf de Systeem Context – gebruik een systeem context diagram. Onderdelen van binnen je System of Interest horen er niet in thuis. Een decompositie van je systeem ook niet. Zijn er geen belangrijke actoren vergeten? Tip: maak eerst met je team een mindmap (zie appendix)``
 
 ### Identificatie en prioritering van Key Drivers
-<!-- Keydrivers / usescases of activity diagram (1 van de 2, je mag kiezen) / object model / eventueel HW schema
+<!-- Keydrivers / usescases / object model
 
 Deze dingen kan ik al gaan doen voor mijn game project 
 -->
