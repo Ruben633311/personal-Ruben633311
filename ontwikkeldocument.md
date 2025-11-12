@@ -16,10 +16,6 @@ Naam ``Ruben``
   - [Uitgangspunten](#uitgangspunten)
     - [Systeem Context](#systeem-context)
     - [Identificatie en prioritering van Key Drivers](#identificatie-en-prioritering-van-key-drivers)
-  - [Requirements](#requirements)
-    - [Functionele Requirements](#functionele-requirements)
-    - [Niet-Functionele Requirements](#niet-functionele-requirements)
-    - [Constraints](#constraints)
     - [Use Cases](#use-cases)
     - [Activity Diagrammen](#activity-diagrammen)
   - [Ontwerp](#ontwerp)
@@ -46,6 +42,47 @@ Naam ``Ruben``
     - [Appendix 4: Referenties](#appendix-4-referenties)
 
 ## Inleiding
+<!-- nieuwe inleiding maken  -->
+De opdracht komt van de HU in de HBO-ICT opleiding en wordt aan studenten gegeven om meer skills te ontwikkelen bij het gebruiken van c++ in vscode. De opdracht gaat over het maken van een game en het maken van diagrammen en modellen die niet van de code afwijken. Het document wordt gebruikt om overzicht en samenhang te creëren voor het maken van het game project. In dit document wordt veel informatie opgeschreven over het project om zelf bij de kunnen houden hoeveel nog gedaan moet worden en om feedback op het proces en tekst te kunnen vragen.
+
+``Van wie komt de opdracht? Waar gaat de opdracht in hoofdlijnen over? Leg verder uit dat dit document bedoeld is om op heldere wijze overzicht en samenhang te geven voor het team tijdens het werken aan het project, en na afloop als overdrachts-document voor eventuele follow-ups.``
+
+## Leeswijzer
+In het uitgangspunten hoofdstuk worden het systeem context, de key drivers en de requirements besproken over mijn game project. Het systeem context geeft een breed idee waar het systeem van de game uit bestaat en welke actoren ermee te maken hebben. De key drivers geven duidelijk aan welke hoofdredenen er zijn om de game te maken. De requirements geven aan waar de game aan moet voldoen en op welke manier wordt in de non-functionele requirements aangegeven. 
+``leg uit wat er in de hoogste-niveau-hoofdstukken wordt behandeld en hoe deze onderwerpen met elkaar in verband staan``
+
+## Uitgangspunten
+Hier wordt uitgelegd waarom de speficieke requirements van belang zijn en vanaf welke basis de game gemaakt gaat worden. Hier een verslag van genoteerde informatie van de opdrachtgever. dus schrijf hier op welke input ik tijdens gesprekken van docenten heb gekregen
+<!-- vertel over de game rubric -->
+``Leg uit dat dit hoofdstuk de uitgangspunten voor de requirements inventariseert. Verwijs naar een appendix met genoteerde input (verslag van speech, gespreksverslagen) van de opdrachtgever - (de echte, tijdens de kickoff-meeting of diens vervanger (Marius,Bart) erna) ``
+
+### Systeem Context
+Ik heb eerst gekeken welke actoren te maken hebben met het systeem: ik kwam op een opdrachtgever, developer, gebruiker en concurrent. Het bestaat uit deze actoren, de game, de knoppen, de esp-32 en de laptop. Op de pijlen staan wat de relaties tussen de systemen en actoren zijn. De game runt op de esp-32 en deze wordt gerunt met de laptop. De knoppen worden geregistreerd en dan stuurt het input naar de game waardoor het karakter hierop reageert.
+
+``Modelleer en beschrijf de Systeem Context – gebruik een systeem context diagram. Onderdelen van binnen je System of Interest horen er niet in thuis. Een decompositie van je systeem ook niet. Zijn er geen belangrijke actoren vergeten? Tip: maak eerst met je team een mindmap (zie appendix)``
+![alt text](image.png)
+
+### Identificatie en prioritering van Key Drivers
+Bij dit hoofdstuk heb ik feedback aan Marius gevraagd over mijn key drivers tabel. Hij heeft gezegd dat het niet van belang is om een key drivers tabel te hebben over het spel. Nu houd ik het bij een simpel key drivers tabel dat niet heel diep gaat. Hij zei dat ik meer aandacht moet geven aan het maken van use cases
+
+<!-- usecases / klasse diagrammen / object model / STD
+
+Deze dingen kan ik al gaan doen voor mijn game project 
+-->
+Bij het ontwikkelen van een game is het misschien handig om te weten welke stakeholders erbij betrokken zijn en welke key drivers zij hebben. In dit project worden vier stakeholders kort onderzocht. Van elke stakeholder wordt kort beschreven wat zijn rol en belangrijkste motivatie is, om duidelijk te maken waarom zij met de game te maken hebben.
+
+Hier de key drivers voor het game project in een tabel:
+
+| **Stakeholder** | **Beschrijving** | **Key drivers** |
+|:----------------|:-----------------|:----------------|
+| opdrachtgever    | De opdrachtgever is de docent of een bedrijf dat opdrachten aan studenten geeft. | outreach, financieel rendement, resultaat en toekomstig talent ontwikkelen |
+| developer   | de developer is de persoon die de game individueel of in teamverband ontwikkelt.  | inkomsten, inzichten gebruikersdata, passie voor creëren, community opbouwen |
+| gebruiker  | de gebruiker is de persoon die de game koopt, inlogt met een account en speelt. | plezier, sociale verbondenheid, uitdaging, positieve spelervaring |
+| concurrent  | de concurrent is de persoon of bedrijf dat een game gemaakt heeft dat zich in de dezelfde genre bevind waardoor gebruikers moeten afwegen om het spel van de concurrent of van de developer te kopen en te spelen.  | marktpositie versterken, meer spelers aantrekken, winst, datagedreven optimalisatie |
+
+``Voor semester 3 beperken we ons tot 3 stakeholders: opdrachtgever, klant en gebruiker. Geef middels een tabel een overzicht van de key drivers weer. Belangrijkere key drivers staan hoger in de tabel. Er is ook een kolom die aangeeft voor welke stakeholder het van toepassing is, en een kolom voor omschrijving. Licht de ordening van de key drivers toe in de begeleidende tekst.``
+
+### Use Cases
 De opdracht gaat over dat je een karakter bestuurd waarmee je obstakels wilt ontwijken en munten wilt pakken. Met mijn groepsgenoten heb ik bepaald wat het minimum valuable product van mijn spel gaat zijn. Mijn karakter moet kunnen bewegen en punten pakken. Objecten zoals vierkanten worden willekeurig gespawnd vanaf de buitenkant van het scherm die naar binnen kunnen bewegen en daarna weer verdwijnen. Bij het karakter wordt actief gecheckt of het een coin aanraakt en of het karakter objecten of projectiles aanraakt die een leven van je weghaalt. In dit document wordt bijgehouden wat ik allemaal voor het game project gedaan heb, ook naast de code. 
 
 Feedback van het game pitch idee dat ik nu heb. 
@@ -53,80 +90,70 @@ Functioneel 1: Ik ga meerdere knoppen gebruiken om de richting van een karakter 
 Functioneel 2: Ik ga een spel maken waarbij je met je karakter meerdere bewegende obstakels wilt ontwijken door te bewegen en snel te reageren, ik ga proberen veel objecten te maken die snel bewegen en dus niet alleen een paar grote objecten die sloom bewegen want dan is dat niet complex genoeg. misschien net complex genoeg omdat er veel verschillende grote en kleine objecten gebruikt kunnen worden om het spel lastig te maken. score: 1/2
 Functioneel 3: Ik ga eerst de scoreboard op het scherm werkend krijgen en als ik meer tijd heb dan misschien bluetooth ook. score: 1 
 
-``Van wie komt de opdracht? Waar gaat de opdracht in hoofdlijnen over? Leg verder uit dat dit document bedoeld is om op heldere wijze overzicht en samenhang te geven voor het team tijdens het werken aan het project, en na afloop als overdrachts-document voor eventuele follow-ups.``
-
-## Leeswijzer
-
-In het uitgangspunten hoofdstuk worden het systeem context, de key drivers en de requirements besproken over mijn game project. Het systeem context geeft een breed idee waar het systeem van de game uit bestaat en welke actoren ermee te maken hebben. De key drivers geven duidelijk aan welke hoofdredenen er zijn om de game te maken. De requirements geven aan waar de game aan moet voldoen en op welke manier wordt in de non-functionele requirements aangegeven. 
-``leg uit wat er in de hoogste-niveau-hoofdstukken wordt behandeld en hoe deze onderwerpen met elkaar in verband staan``
-
-## Uitgangspunten
-Hier wordt uitgelegd waarom de speficieke requirements van belang zijn en vanaf welke basis de game gemaakt gaat worden. Hier een verslag van genoteerde informatie van de opdrachtgever. dus schrijf hier op welke input ik tijdens gesprekken van docenten heb gekregen
-``Leg uit dat dit hoofdstuk de uitgangspunten voor de requirements inventariseert. Verwijs naar een appendix met genoteerde input (verslag van speech, gespreksverslagen) van de opdrachtgever - (de echte, tijdens de kickoff-meeting of diens vervanger (Marius,Bart) erna) ``
-
-### Systeem Context
-
-``Modelleer en beschrijf de Systeem Context – gebruik een systeem context diagram. Onderdelen van binnen je System of Interest horen er niet in thuis. Een decompositie van je systeem ook niet. Zijn er geen belangrijke actoren vergeten? Tip: maak eerst met je team een mindmap (zie appendix)``
-
-### Identificatie en prioritering van Key Drivers
-<!-- Keydrivers / usescases / object model
-
-Deze dingen kan ik al gaan doen voor mijn game project 
--->
-
-``Voor semester 3 beperken we ons tot 3 stakeholders: opdrachtgever, klant en gebruiker. Geef middels een tabel een overzicht van de key drivers weer. Belangrijkere key drivers staan hoger in de tabel. Er is ook een kolom die aangeeft voor welke stakeholder het van toepassing is, en een kolom voor omschrijving. Licht de ordening van de key drivers toe in de begeleidende tekst.``
-
-## Requirements
-
-``leg uit hoe de requirements opgesteld worden door de samenhang te verwoorden van de onderwerpen uit de sub-hoofdstukken.``
-
-### Functionele Requirements
-
-``Beschrijf de relevante functionele requirements``
-
-| Naam                | ``F01 - Houvast``                                       |
-| ------------------- | ------------------------------------------------------- |
-| Omschrijving        |                                                         |
-| Rationale           | ``reden, verband met key driver of parent-requirement`` |
-| Business prioriteit | ``MoSCoW``                                              |
-
-``etc..``
-
-### Niet-Functionele Requirements
-
-``Beschrijf de relevante Niet-Functionele Requirements``
-
-| Naam                | ``NF03 - Betrouwbaarheid``                                                                                                           |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| Omschrijving        | ``quantificeerbare of anderszins meetbare omschrijving ``                                                                            |
-| Rationale           | ``reden: wat zou er anders mis gaan?``                                                                                               |
-| Business prioriteit | ``MoSCoW. Deze regel alleen gebruiken bij niet quantificeerbare opdrachtgever-bepaalde ontwerp/realisatie keuzes, anders weglaten.`` |
-
-``etc..``
-
-### Constraints
-
-``Beschrijf de relevante Constraints``
-
-| Naam         | ``C02 - Jaarlijkse onderhoudskosten``                     |
-| ------------ | --------------------------------------------------------- |
-| Omschrijving | ``quantificeerbare of anderszins meetbare omschrijving `` |
-| Rationale    | ``reden: waarom kan het niet anders?``                    |
-
-### Use Cases
-
 `` Een of meerdere use case diagram(men) met bijbehorende use case beschrijvingen ``
 
-| Naam           | ``UC04 - Lamp Selecteren``                                                                                                                                                                                                                 |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Actor          | ``gebruiker``                                                                                                                                                                                                                              |
-| Samenvatting   | ``evt. een beschrijving, voor zover de naam het niet al voldoende dekt``                                                                                                                                                                   |
-| Preconditie    | ``alleen voor zover niet triviaal. typisch alleen nodig indien onderdeel van een parent-usecase, bijvoorbeeld "Lamp Selectie Menu" is geselecteerd in het hoofdmenu``                                                                      |
-| Scenario       | ``voorbeeld van een typische volgorde van interacties, bij voorkeur geschreven vanuit het gezichtspunt van het systeem.``                                                                                                                  |
-| Scenario 2     | ``... indien nodig additionele``                                                                                                                                                                                                           |
-| Invariant      | ``Iets waarvoor het systeem voortdurend zorgt, waardoor dat niet steeds herhaald hoeft te worden. (kan soms van toepassing zijn. Bijvoorbeeld: 'ten alle tijde kan "apply" worden geselecteerd om aangepaste eigenschappen op te slaan')`` |
-| Postconditie   | ``alleen voor zover niet triviaal. typisch alleen indien onderdeel van parent-usecase. bijvoorbeeld teruggekeerd naar het parent menu``                                                                                                    |
-| Uitzonderingen | ``alleen als er tijdens het scenario iets gebeurt wat niet in lijn is met de oorspronkelijke bedoeling van de usecase.``                                                                                                                   |
+<!-- 
+
+aparte use case voor de speler, enemy en projectiel
+
+de use cases moeten vanuit het systeem zijn
+-->
+
+| Naam           | ``UC01 - Speler``    |
+| -------------- | ------------- |
+| Actor          | Gebruiker |
+| Doel           | Het doel van de Speler klasse is om botsing te detecteren, de score en levens bij te houden. |
+| Samenvatting   | Deze use case beschrijft hoe de speler in de game werkt bij botsing en statistieken. |
+| Preconditie    | Het karakter is nog niet op het scherm gezet |
+| Scenario. | 1. De gebruiker drukt op de startknop om te beginnen. <br> 2. De speler wordt op het scherm gezet <br> 3. De knoppen sturen de input naar de speler waar de speler op reageert <br> 4. Als de speler klasse 0 levens heeft wordt hij van het scherm afgehaald <br> 5.  <br> 6. <br>  7.  <br> 8.  |
+| Invariant      | 1. Als de game een bericht stuurt naar de speler dat hij geraakt is, dan gaat er 1 leven van de levens af. 2. Als de game een bericht stuurt naar de speler dat hij een munt opgepakt heeft, dan wordt bij de score 1 opgeteld. |
+| Postconditie   | De speelsessie is beëindigd doordat de speler geen levens meer heeft en wordt de speler van het scherm af gehaald.  |
+| Uitzonderingen | 5a.   |
+
+| Naam           | ``UC01 - Enemy``    |
+| -------------- | ------------- |
+| Actor          | Gebruiker |
+| Doel           |  |
+| Samenvatting   | Deze use case beschrijft hoe...    |
+| Preconditie    |    |
+| Scenario. | 1.  <br> 2.  <br> 3.  <br> 4.  <br> 5.  <br> 6. <br>  7.  <br> 8.  |
+| Invariant      | 1a.   4a. |
+| Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de speler kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken.   |
+| Uitzonderingen | 5a.   |
+
+| Naam           | ``UC01 - Projectiel``    |
+| -------------- | ------------- |
+| Actor          | Gebruiker |
+| Doel           |  |
+| Samenvatting   | Deze use case beschrijft hoe...    |
+| Preconditie    |    |
+| Scenario. | 1.  <br> 2.  <br> 3.  <br> 4.  <br> 5.  <br> 6. <br>  7.  <br> 8.  |
+| Invariant      | 1a.   4a. |
+| Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de speler kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken.   |
+| Uitzonderingen | 5a.   |
+
+| Naam           | ``UC01 - Spel spelen``    |
+| -------------- | ------------- |
+| Actor          | Gebruiker |
+| Doel           | De gebruiker wil het spel starten, spelen en een score behalen. |
+| Samenvatting   | Deze use case beschrijft hoe de gebruiker het spel opstart, speelt tot alle levens op zijn en vervolgens het eindresultaat ziet.     |
+| Preconditie    | Het spel staat aan en wacht op input van de gebruiker, score en levens staan al op het scherm.    |
+| Scenario. | 1. De gebruiker drukt op de startknop om te beginnen <br> 2. Het spel zet de waardes van score op 0, levens op 3 en start de game. <br> 3. Er wordt gewacht op button inputs. <br> 4. Obstakels en projectielen verschijnen op het scherm en bewegen. <br> 5. De speler klasse stuurt als er botsing plaatsvind tussen het karakter en een projectiel. <br> 6. Als het derde leven op is dan komt "Game over" en de score op het scherm te staan en stopt de game loop. <br> 7. Keer terug naar stap 1. |
+| Invariant      | 1a. de "voorwaarts" knop stuurt een bericht naar de game waarna de game begint. 3a. alle knoppen blijven signalen sturen naar de game als ze ingedrukt worden. 6a. De speler klasse stuurt een signaal als het derde leven op is om "Game over", de score op het scherm te zetten en opnieuw klaar te maken voor een nieuw potje. |
+| Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de gebruiker kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken. |
+| Uitzonderingen | Als de game handmatig gestopt wordt dan stopt de game volledig. |
+
+<!-- voorbeeld -->
+<!-- | Naam           | ``UC01 - Spel starten en spelen``    |
+| -------------- | ------------- |
+| Actor          | Gebruiker  |
+| Doel           | De gebruiker wil het spel starten, spelen en een score behalen. |
+| Samenvatting   | Deze use case beschrijft hoe de gebruiker het spel opstart, speelt tot alle levens op zijn en vervolgens het eindresultaat ziet.     |
+| Preconditie    | Het spel staat aan en wacht op input van de gebruiker, score en levens staan al op het scherm.    |
+| Scenario. | 1. De gebruiker drukt op de startknop om te beginnen <br> 2. Het spel zet de basis waardes van variabelen klaar en start de game. <br> 3. De speler beweegt de spelerkarakter met de richtingsknoppen. <br> 4. Obstakels en projectielen verschijnen op het scherm, de speler gebruikt de knoppen om levend te blijven. <br> 5. Bij botsing verliest de speler een leven. <br> 6. De speler speelt door tot alle levens op zijn.<br> 7. Als het derde leven op is dan komt "Game over" op het scherm te staan, de behaalde score en stopt de game loop. <br> 8. Het spel keert terug naar stap 1. |
+| Invariant      | 1a. Blijft op de "voorwaarts knop" controleren. 3a. Blijft op de beweeg knoppen en op de ability knop controleren. 4a. blijft controleren of het derde leven op is. Tijdens het spelen worden levens, score en invoer continu gecontroleerd en bijgewerkt. |
+| Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de speler kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken.   |
+| Uitzonderingen | 5a. Als de game handmatig gestopt wordt dan is de game loop niet oneindig meer en stopt het volledig   | -->
 
 ### Activity Diagrammen
 
