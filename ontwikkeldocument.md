@@ -93,7 +93,6 @@ Functioneel 3: Ik ga eerst de scoreboard op het scherm werkend krijgen en als ik
 `` Een of meerdere use case diagram(men) met bijbehorende use case beschrijvingen ``
 
 <!-- 
-
 aparte use case voor de speler, enemy en projectiel
 
 de use cases moeten vanuit het systeem zijn
@@ -106,7 +105,7 @@ de use cases moeten vanuit het systeem zijn
 | Samenvatting   | Deze use case beschrijft hoe de speler in de game werkt bij botsing en statistieken. |
 | Preconditie    | Het karakter is nog niet op het scherm gezet |
 | Scenario.      | 1. De gebruiker drukt op de startknop om te beginnen. <br> 2. De speler wordt op het scherm gezet. <br> 3. De knoppen sturen de input naar de speler waar de speler op reageert <br> 4. Als de speler klasse 0 levens heeft wordt hij van het scherm afgehaald <br> 5. Als de knoppen een signaal sturen dat de game weer opnieuw moet runnen dan wordt de speler weer geactiveerd. |
-| Invariant      | 1. Als de game een bericht stuurt naar de speler dat hij geraakt is, dan gaat er 1 leven van de levens af. <br> 2. Als de game een bericht stuurt naar de speler dat hij een munt opgepakt heeft, dan wordt bij de score 1 opgeteld. <br> 3. De knoppen sturen altijd de inputs naar de speler zodat de speler erop kan reageren. |
+| Invariant      | 1. Als de game merkt dat de speler geraakt is, dan stuurt de game een bericht hiervan. Hierdoor heeft de speler tijdelijke onkwetsbaarheid en gaat er 1 leven van de levens af. <br> 2. Als de game merkt dat de speler een munt opgepakt heeft, dan wordt bij de score 1 opgeteld. <br> 3. De knoppen sturen altijd de inputs naar de speler zodat de speler erop kan reageren. |
 | Postconditie   | De speelsessie is beëindigd doordat de speler geen levens meer heeft en wordt de speler van het scherm af gehaald.  |
 | Uitzonderingen | n.v.t |
 
@@ -117,7 +116,7 @@ de use cases moeten vanuit het systeem zijn
 | Samenvatting   | Deze use case beschrijft hoe de enemy mechanics werken in de game |
 | Preconditie    | Er staan geen enemy's op het scherm |
 | Scenario.      | 1. Als er geen enemy's op het scherm staan dan wordt een enemy gespawned, deze beweegt een kant op. <br> 2 De enemy schiet projectielen. <br> 3 De enemy verlaat het scherm en wordt buiten het scherm geplaatst en gereset. <br> 4. De enemy kan weer opnieuw gebruikt worden met andere waardes voor de positie of de projectielen, keer terug naar stap 1. |
-| Invariant      | 1a. De speler stuurt een bericht naar Enemy als de speler met de enemy botste, dan verdwijnt die enemy van het scherm. |
+| Invariant      | 1a. De game stuurt een bericht naar Enemy als de speler met de enemy botste, dan verdwijnt die enemy van het scherm. |
 | Postconditie   | De enemy wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd of de enemy het scherm verlaat of het botste met de speler. |
 | Uitzonderingen | n.v.t. |
 
@@ -127,8 +126,8 @@ de use cases moeten vanuit het systeem zijn
 | Doel           | Het doel van een projectiel is om de speler het projectiel te laten ontwijken door te bewegen, want anders stuurt het projectiel een bericht naar de speler dat de speler botste met een projectiel. |
 | Samenvatting   | Deze use case beschrijft hoe een projectiel in het algemeen in het spel gaat werken |
 | Preconditie    | Het projectiel is klaar om te gebruiken en staat nog niet op het scherm afgebeeld |
-| Scenario.      | 1. Een projectiel wordt vanaf de buitenkant van het scherm of vanaf een enemy geschoten. <br> 2. De speler stuurt een bericht naar het projectiel als ze met elkaar botsen en dan wordt het projectiel van het scherm afgehaald. <br> 3. De snelheid en richtingswaardes van het projectiel worden gereset zodat het projectiel opnieuw gebruikt kan worden, keer terug naar stap 1. |
-| Invariant      | Checkt of er teveel projectielen op het scherm staan, dan worden er niet meer toegevoegd tot er weer een projectiel verdwijnt. 1a. Checkt of de speler een bericht stuurt dan ze met elkaar gebotst hebben. |
+| Scenario.      | 1. Een projectiel wordt vanaf de buitenkant van het scherm of vanaf een enemy geschoten. <br> 2. De game stuurt een bericht naar het projectiel als het projectiel met de speler botst, dan wordt het projectiel van het scherm afgehaald. <br> 3. De snelheid van het projectiel worden gereset zodat het projectiel opnieuw gebruikt kan worden, keer terug naar stap 1. |
+| Invariant      | Checkt of er teveel projectielen op het scherm staan, dan worden er niet meer toegevoegd tot er weer een projectiel verdwijnt. 1a. Checkt of de game een bericht stuurt dan ze met elkaar gebotst hebben. |
 | Postconditie   | Het projectiel wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd of als het projectiel het scherm verlaat of het botste met de speler. |
 | Uitzonderingen | n.v.t. |
 
@@ -138,7 +137,7 @@ de use cases moeten vanuit het systeem zijn
 | Doel           | De gebruiker wil de game starten, spelen en een score behalen. |
 | Samenvatting   | Deze use case beschrijft hoe de gebruiker de game opstart, speelt tot alle levens op zijn en vervolgens het eindresultaat ziet.     |
 | Preconditie    | De game staat aan en wacht op input van de gebruiker, score en levens staan al op het scherm.    |
-| Scenario. | 1. De gebruiker drukt op de startknop om te beginnen <br> 2. De game zet de waardes van score op 0, levens op 3 en start de game. <br> 3. Er wordt gewacht op button inputs. <br> 4. Obstakels en projectielen verschijnen op het scherm en bewegen. <br> 5. De speler klasse stuurt als er botsing plaatsvind tussen het karakter en een projectiel. <br> 6. Als het derde leven op is dan komt "Game over" en de score op het scherm te staan en stopt de game loop. <br> 7. Keer terug naar stap 1. |
+| Scenario. | 1. De gebruiker drukt op de startknop om te beginnen <br> 2. De game zet de waardes van score op 0, levens op 3 en start de game. <br> 3. Er wordt gewacht op button inputs. <br> 4. Obstakels en projectielen verschijnen op het scherm en bewegen. <br> 5. De game stuurt een bericht als er botsing plaatsvind tussen het karakter en een projectiel naar de speler. <br> 6. Als het derde leven op is dan komt "Game over" en de score op het scherm te staan en stopt de game loop. <br> 7. Keer terug naar stap 1. |
 | Invariant      | 1a. de "voorwaarts" knop stuurt een bericht naar de game waarna de game begint. 3a. alle knoppen blijven signalen sturen naar de game als ze ingedrukt worden. 6a. De speler klasse stuurt een signaal als het derde leven op is om "Game over", de score op het scherm te zetten en opnieuw klaar te maken voor een nieuw potje. |
 | Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de gebruiker kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken. |
 | Uitzonderingen | Als de game handmatig gestopt wordt dan stopt de game volledig. |
