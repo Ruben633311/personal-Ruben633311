@@ -76,15 +76,15 @@ Succes met de uitwerking van de verantwoording!
 
 *Waar ik het meest trots op ben:*
     
-    dat ik mijn best doe in de les en probeer opdrachten af te maken
+    Ik ben trots op de game sprites opdracht waarin ik sprites op de CYD heb kunnen krijgen en dat het karakter coins op kan pakken waardoor de score omhoog gaat. Dit is zeer helpvol voor mijn game.
     
 *Waar ik de afgelopen periode moeite mee heb gehad en welke actie ik heb ondernomen:*
 
-    dat ik vaak veel moeite heb met oefenopdrachten en daardoor moet ik eerder vragen stellen om verder te komen
+    Ik heb veel moeite gehad met de use case beschrijvingen en het object model maken voor mijn game. Ik ben veel vragen aan Marius hier over aan het stellen.
 
 *Wat ik nog graag wil leren en welke actie ik wil gaan ondernemen:*
 
-      ik wil graag beter leren programmeren en om dat te doen ga ik bij c++ oefenopdrachten mijn best doen en veel vragen stellen. 
+      ik wil graag beter leren programmeren in c++ zodat ik meer interresante en complexe dingen voor elkaar kan krijgen zoals een game maken op een CYD, games maken vind ik heel leuk en zou ik beter willen leren, ik stel veel vragen om een goede game te kunnen maken. 
 ---
 
 ## Leeruitkomsten
@@ -251,6 +251,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `RGBled document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar RGBled document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20RGBled.md) |
@@ -265,6 +266,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `PWM document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar PWM document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20PWM.md) |
@@ -278,6 +280,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `LDR document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar LDR document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20LDR.md) |
@@ -291,6 +294,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `LCD drawables document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan voor deze opdracht` | [link naar LCD drawables document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/LCD_Drawables.md) |
@@ -303,6 +307,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `LCD drawables code` | `Ik heb bij deze opdracht in drie code bestanden gewerkt` | [link naar LCD drawables code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/LCD_drawables/main) |
@@ -315,6 +320,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Object model snoepautomaat document` | `Ik heb bij deze opdracht een snoepautomaat object model gemaakt op basis van een activity diagram` | [link naar object model snoepautomaat document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/Object_Model.md) |
@@ -328,6 +334,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 Bij het maken van deze opdracht heb ik hulp gevraagd Laurens Richter. Ik wist eerst niet wat een model beschrijving was en Laurens heeft mij uitgelegd waar ik het kon vinden en hoe het ingevuld moest worden.
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Object model NS trein document` | `Ik heb bij deze opdracht een NS trein object model gemaakt op basis van twee use case beschrijvingen` | [link naar Object model NS trein document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/Object_model_NS_trein.md) |
@@ -340,6 +347,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 Ik heb aan Marius vragen gesteld over het object model en ik kreeg de volgende feedback: bij het treinverkeersregelcentrum moet er een aparte gps boundary zijn waar het centrum de locatie van de trein vandaan haalt. Bij de pijlen met de text gevaarlijkeSituatieGedetecteerd en obstakelGedetecteerd stond 'is' ervoor alsof het een vraag was maar dit klopte niet dus heb ik dit veranderd. Ook kreeg ik de tip om de text op de pijltjes met fn + f2 te zetten zodat het er beter uit ziet. Ik heb ook van Ryan, een groepgenoot feedback gekregen om de text op de pijltjes naar bijvoorbeeld object motor en van accountControl naar snelheidbeheersControl te veranderen. Ook hebben Marius en Ryan bij een paar pijltjes aangegeven dat hij de andere kant op moet richten, ik heb al dit feedback gebruikt om een betere versie van het model te maken.
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Trafficlight Deel 1 code` | `Ik heb bij deze opdracht in meerdere code bestanden gewerkt` | [link naar Trafficlight Deel 1 code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/TrafficLight) |
@@ -352,6 +360,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `plantuml STD Deel 1` | `Ik heb een state machine diagram gemaakt voor Deel 1 code van het stoplicht` | [link naar plantuml STD Deel 1](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/STD_stoplicht/STD.plantuml) |
@@ -365,6 +374,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Trafficlight Deel 2 code` | `Ik heb bij deze opdracht in meerdere code bestanden gewerkt` | [link naar Trafficlight Deel 2 code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/TrafficLight_v2) |
@@ -377,6 +387,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `plantuml STD Deel 2` | `Ik heb een state machine diagram gemaakt voor Deel 2 code van het stoplicht` | [link naar plantuml STD Deel 2](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/STD_stoplicht/STD2.plantuml) |
@@ -390,6 +401,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `AnalogButtonReader code` | `Ik heb code gewijzigd in al gemaakte bestanden zodat de knoppen werken` | [link naar AnalogButtonReader code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/AnalogButtonReader) |
@@ -402,6 +414,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `CYD keypad document` | `Ik heb bij deze keypad opdracht een document gemaakt over de keypad opdracht` | [link naar CYD keypad document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/CYD_keypad.md) |
@@ -414,6 +427,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Duivenschreck en Snoepautomaat KD document` | `Ik heb bij deze opdracht twee klassediagram van twee object modellen gemaakt` | [link naar Duivenschreck en Snoepautomaat KD document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/Duivenschreck_en_Snoepautomaat_KD.md) |
@@ -426,6 +440,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Signal Fourier Filter document` | `Ik heb bij deze opdracht code op de arduino UNO gerunt en hier een signaal uit gekregen` | [link naar Signal Fourier Filter document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/Signal_Fourier_Filter.md) |
@@ -438,6 +453,33 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+---
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Duivenschreck instelControl document` | `Bij deze opdracht heb ik een klassediagram en een use case beschrijving gebruikt om een STD van het duivenschreck instelControl systeem te maken.` | [link naar instelControl document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/Duivenscheck_STD.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Deze opdracht laat zien dat ik van een klassediagram en een use case diagram een STD kan maken.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+---
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `CYD Sprites` | `Ik heb bij deze opdracht een eigen speler gemaakt en een afbeelding naar een c-array omgezet. Ik heb de snake sprite voor de speler gebruikt en ik heb een coin sprite en entiteit toegevoegd. Er is ook een score van het simpele spel en verder heb ik vragen van de opdracht beantwoordt.` | [link naar CYD sprites document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/CYD_Sprites.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+In deze opdracht laat ik zien dat ik sprites op het scherm van de CYD kan krijgen en ze met elkaar kan laten interacteren.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+---
 **Leeruitkomst 3 Groepsopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |

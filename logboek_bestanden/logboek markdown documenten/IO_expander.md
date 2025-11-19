@@ -1,0 +1,1 @@
+Bij deze opdracht is het gelukt om de functies te veranderen en de main zo te maken dat ik een 0 terugkrijg in plaats van een -1. Het lukte niet om twee ledjes bij deze opdracht aan te sturen binnen de tijd die ik had. Ik heb alleen voor elkaar kunnen krijgen dat de code zou kunnen werken, maar ik kon geen toepassing met ledjes maken en ik weet niet hoe ik dit zou kunnen doen.
