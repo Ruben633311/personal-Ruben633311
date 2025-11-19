@@ -260,7 +260,7 @@ Student ontwerpt gebaseerd op de requirements en volgens voorgeschreven methoden
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Rled document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar Rled document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20Rled.md) |
+| `Rled document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar Rled document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/ESP%20Rled.md) |
 | `Rled code` | `Ik heb wat onderzoek gedaan om antwoorden op vragen te bedenken en ik heb code werkened kunnen krijgen om de kleur rood te krijgen` | [link naar Rled code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/Rled) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -275,7 +275,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `RGBled document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar RGBled document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20RGBled.md) |
+| `RGBled document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar RGBled document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/ESP%20RGBled.md) |
 | `RGBled code` | `Ik heb de RGBled opdracht gemaakt door de code van Rled te pakken en daarna moest ik een aantal dingen veranderen aan de code maar ik had hier veel moeite mee` | [link naar RGBled code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/RGBled) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -290,7 +290,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `PWM document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar PWM document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20PWM.md) |
+| `PWM document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar PWM document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/ESP%20PWM.md) |
 | `PWM code` | `Ik heb bij deze opdracht de voorbeeld code gekopieerd en veel aan moeten passen` | [link naar PWM code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/PWM) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -304,7 +304,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `LDR document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar LDR document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20LDR.md) |
+| `LDR document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan` | [link naar LDR document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/ESP%20LDR.md) |
 | `LDR code` | `Ik heb bij deze opdracht de voorbeeld code gekopieerd en geleerd hoe xTaskCreatePinnedToCore ingevuld moet worden en de constructor en initialisatielijst ingevuld moet worden` | [link naar LDR code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/LDR) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -318,7 +318,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `LCD drawables document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan voor deze opdracht` | [link naar LCD drawables document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/LCD_Drawables.md) |
+| `LCD drawables document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan voor deze opdracht` | [link naar LCD drawables document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/LCD_Drawables.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -344,7 +344,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Object model snoepautomaat document` | `Ik heb bij deze opdracht een snoepautomaat object model gemaakt op basis van een activity diagram` | [link naar object model snoepautomaat document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/Object_Model.md) |
+| `Object model snoepautomaat document` | `Ik heb bij deze opdracht een snoepautomaat object model gemaakt op basis van een activity diagram` | [link naar object model snoepautomaat document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/Object_Model.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -358,7 +358,7 @@ Bij het maken van deze opdracht heb ik hulp gevraagd Laurens Richter. Ik wist ee
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Object model NS trein document` | `Ik heb bij deze opdracht een NS trein object model gemaakt op basis van twee use case beschrijvingen` | [link naar Object model NS trein document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/Object_model_NS_trein.md) |
+| `Object model NS trein document` | `Ik heb bij deze opdracht een NS trein object model gemaakt op basis van twee use case beschrijvingen` | [link naar Object model NS trein document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/Object_model_NS_trein.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -618,7 +618,7 @@ Student zet een professionele ontwikkelomgeving op. Hij debugt daarmee zijn soft
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Installatie 1` | `ik heb de ontwikkelomgeving in elkaar gezet met de handleiding` | [link naar installatie opdracht 1](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20installatie.md) |
+| `Installatie 1` | `ik heb de ontwikkelomgeving in elkaar gezet met de handleiding` | [link naar installatie opdracht 1](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/ESP%20installatie.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -628,7 +628,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
-| `Installatie 2` | `ik heb de ontwikkelomgeving verder in elkaar gezet met de handleiding en meer code gerunt om te kijken of alles werkt` | [link naar installatie opdracht 2](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ESP%20logboek/logboek%20markdown%20documenten/ESP%20installatie2.md) |
+| `Installatie 2` | `ik heb de ontwikkelomgeving verder in elkaar gezet met de handleiding en meer code gerunt om te kijken of alles werkt` | [link naar installatie opdracht 2](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/ESP%20installatie2.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
