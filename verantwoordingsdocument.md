@@ -145,7 +145,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Use Case Beschrijving` | `Voor de activity diagram opdracht heb ik een use case beschrijving gemaakt` | [link naar activity diagram opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/project_use_cases/use_case_beschrijving.md) |
+| `Use Case Beschrijving` | `Voor de activity diagram opdracht heb ik een use case beschrijving gemaakt` | [link naar use case beschrijving opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/project_use_cases/use_case_beschrijving.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -155,6 +155,19 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Key drivers, use case beschrijvingen en systeem context diagram in ontwikkeldocument` | `In het ontwikkeldocument heb ik key drivers, use case beschrijvingen en een systeem context diagram gemaakt voor mijn game` | [link naar ontwikkeldocument](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ontwikkeldocument.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik laat met het ontwikkeldocument zien dat ik key drivers, use case beschrijvingen en een systeem context diagram kan maken gebaseerd op de eisen van de opdrachtgever en op basis van mijn visie en ideeën voor mijn game.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+---
 **Leeruitkomst 1 Groepsopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -195,11 +208,19 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `Requirements team ontwikkeldocument` | `In het ontwikkeldocument heb ik 6 requirements gemaakt waar de spectrometer aan moet voldoen` | [link naar Requirements team ontwikkeldocument](https://github.com/2025-TICT-TV2SE3-24-1-V/project-tl-buis/blob/main/documents/ontwikkeldocument.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
---
+Ik heb voor het groepsproject 6 requirements gemaakt gebaseerd op de eisen van de opdrachtgever.
+- De spectrometer moet een resolutie van ongeveer 20nm hebben.
+- De spectrometer moet in de meting ruis en achtergrondslicht blokkeren en corrigeren.
+- De spectrometer bevat een vloeistofcontainer
+-  De soort lamp van de spectrometer biedt de mogelijkheid tot een goed spectrum (Geen RGB LED).
+-  De spectrometer bevat een manier om licht op te splitsen.
+-  De spectrometer bevat een spleet waar licht doorheen loopt.
+
+Hiermee laat ik zien dat ik requirements voor een teamproject kan maken.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
@@ -480,6 +501,46 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 --
 
 ---
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `IO expander document` | `Ik heb bij deze opdracht voorbeeld code veranderd zodat de io expander gebruikt kan worden, maar ik had geen tijd om het met ledjes te kunnen gebruiken` | [link naar CYD sprites document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/IO_expander.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+In deze opdracht laat ik zien dat ik voorbeeldcode van een opdracht kan veranderen zodat de io expander gebruikt kan worden.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+---
+
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `IO expander document` | `Ik heb bij deze opdracht voorbeeld code veranderd zodat de io expander gebruikt kan worden, maar ik had geen tijd om het met ledjes te kunnen gebruiken` | [link naar CYD sprites document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/IO_expander.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+In deze opdracht laat ik zien dat ik voorbeeldcode van een opdracht kan veranderen zodat de io expander gebruikt kan worden.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+---
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `STD ArtikelInvoerControl document` | `Bij de opdracht STD snoepautomaat ArtikelInvoerControl heb ik met de gekregen informatie een STD gemaakt en heb ik wat feedback op gekregen` | [link naar STD ArtikelInvoerControl document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/STD_Snoepautomaat_ArtikelInvoerControl.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+In deze opdracht laat ik zien dat ik voorbeeldcode van een opdracht kan veranderen zodat de io expander gebruikt kan worden.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+Bij de opdracht STD snoepautomaat ArtikelInvoerControl heb ik wat feedback van mijn groepsgenoot Ryan gekregen om bepaalde onlogische dingen te veranderen, zoals dat ik teveel states had. Ik had een state voor elke uitkomst maar dat was niet logisch zoals ik het had gedaan, dus heb ik een aantal states weggehaald en geven de pijlen meer aan wat er gebeurd als welke knop wordt ingedrukt en wat er dan gebeurt. 
+
+---
 **Leeruitkomst 3 Groepsopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -528,11 +589,11 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `testdocumentatie documenten voor spectrometer` | `In deze documentatie heb ik een begin gemaakt aan het maken van een test report en een test report template` | [link naar testdocumentatie documenten]([http://](https://github.com/2025-TICT-TV2SE3-24-1-V/project-tl-buis/tree/main/testdocumentatie)) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
---
+In deze opdracht heb ik een begin gemaakt om een test report te maken, maar het laat nog niet zien dat ik heldere documentatie van tests kan maken.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
@@ -577,6 +638,18 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
+| `Gomoku document` | `Voor de gomoku opdracht heb ik een docker en een docker-compose opgezet` | [link naar het gomoku document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/gomoku.md) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik laat in deze opdracht zien dat het mij is gelukt om de docker en docker-compose op te zetten in een virtualbox server.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+---
+
 **Leeruitkomst 5 Groepsopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -608,32 +681,32 @@ Student is in staat om bij zichzelf en/of binnen het projectteam vast te stellen
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `Onderzoek prisma/ diffractierooster spectrometer` | `Ik heb een uitgebreid onderzoek gedaan over hoe prisma's en diffractieroosters licht breken, deze natuurkundige concepten uitgelegd en onderzocht hoe hier in een spectrometer gebruik van gemaakt wordt` | [link naar spectrometer onderzoek](https://github.com/2025-TICT-TV2SE3-24-1-V/project-tl-buis/blob/main/images_onderzoek_Ruben/Onderzoek_Ruben.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
-**Leeruitkomst 6 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-|--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
+Ik laat met dit onderzoek zien dat ik een onderzoek kan ontwerpen, uitvoeren en vastleggen. Voor het groepsproject wordt helaas uiteindelijk geen prisma of diffractierooster los gebruikt, maar wordt een sensor gebruikt die dit zelf al doet. Ook laat ik zien dat ik in mijn onderzoek kan journaliseren door stappen die ik heb genomen te vertellen, wat nog meer onderzocht kan worden en welke conclusie ik op de hoofdvraag trek.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
 ---
+**Leeruitkomst 6 Groepsopdrachten:**
 
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `OOP verdieping` | `ik heb met mijn groepje: Lotte, Sarah en Jochem een stuk code met OOP geanalyseerd, onderzocht en erover gepresenteerd wat van OOP terugkomt in de code` | [link naar OOP verdieping](https://hogeschoolutrecht-my.sharepoint.com/:p:/g/personal/jochem_hoekstra_student_hu_nl/EZw0BxvWpIxPiJbLR39vbogBiRRvhkc-cR0iTtKavbBiLA?e=EV3fP2) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Mijn aandeel aan de OOP verdieping opdracht is dat ik het tic tac toe project online hebt gevonden door te googelen. Ik heb gekeken of het project interessant was en of het groot genoeg was om te analyseren. Ik heb uiteindelijk het GameManager class geanalyseerd en nu begrijp ik wat de class doet. Ik heb de slide over deze class ingevuld en sleutelwoorden erop geschreven, ook staan er meer uitgebreide notities bij deze slide. Deze notities zijn ook ingeleverd in de opdracht. 
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+Feedback Hagen: vergeet niet de bron in de presentatie te verwerken. Dit was de enige tip die we kregen.
+
+---
 ### Leeruitkomst 7 : Organiserend Vermogen
 
 Student kan zelfstandig een planning opstellen voor een (groeps)project met het oog op implementatie van de oplossing, rekening houdend met beschikbare middelen, tijd, ethische en duurzaamheidskwesties en te verwachten risico's.
@@ -665,11 +738,11 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `Taken die ik in het scrum board heb` | `Ik heb vier taken voor mezelf gemaakt en er zijn ook andere taken die ik ben aangewezen om te doen` | [link naar Taken die ik in het scrum board heb](https://github.com/orgs/2025-TICT-TV2SE3-24-1-V/projects/8/views/5) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
---
+Ik laat zien dat ik het scrum board kan gebruiken en dat ik bijhoud wat ik nog moet doen en dat ik mezelf bij die taken kan zetten.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
@@ -690,35 +763,32 @@ Student kan zich zowel mondeling als schriftelijk in begrijpelijk en correct Ned
 ---
 
 **Leeruitkomst 8 Persoonlijke opdrachten:**
-
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `Onderzoek prisma/ diffractierooster spectrometer` | `Ik heb een uitgebreid onderzoek gedaan over hoe prisma's en diffractieroosters licht breken, deze natuurkundige concepten uitgelegd en onderzocht hoe hier in een spectrometer gebruik van gemaakt wordt` | [link naar spectrometer onderzoek](https://github.com/2025-TICT-TV2SE3-24-1-V/project-tl-buis/blob/main/images_onderzoek_Ruben/Onderzoek_Ruben.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
---
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
-**Leeruitkomst 8 Groepsopdrachten:**
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-|--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
---
+Ik laat met dit onderzoek zien dat ik mezelf helder kan verwoorden in een geschreven document.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
 ---
+**Leeruitkomst 8 Groepsopdrachten:**
 
+| `OOP verdieping` | `ik heb met mijn groepje: Lotte, Sarah en Jochem een stuk code met OOP geanalyseerd en erover gepresenteerd wat van OOP terugkomt in de code` | [link naar OOP verdieping](https://hogeschoolutrecht-my.sharepoint.com/:p:/g/personal/jochem_hoekstra_student_hu_nl/EZw0BxvWpIxPiJbLR39vbogBiRRvhkc-cR0iTtKavbBiLA?e=EV3fP2) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb voor de OOP verdiepings opdracht code geanalyseerd, onderzocht en erover gepresenteert wat ik heb gevonden. Hagen heeft geen feedback gegeven over hoe ik heb gepresenteerd dus dit laat zien dat ik helder kan communiceren tijdens presentaties.
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+Feedback Hagen: vergeet niet de bron in de presentatie te verwerken. Dit was de enige tip die we kregen.
+
+---
 ### Leeruitkomst 9 : Zelflerend Vermogen
 
 Student kijkt terug op de afgelopen periode om het eigen gedrag ook in relatie tot andermans waarden en normen te analyseren en bepaalt of dat toereikend was. Student past zo nodig het eigen handelen aan, bijvoorbeeld naar aanleiding van feedback van anderen, doet dit periodiek en op systematische wijze, bijvoorbeeld op basis van bestaande reflectiemethoden.
@@ -734,17 +804,29 @@ Student kijkt terug op de afgelopen periode om het eigen gedrag ook in relatie t
 
 **Leeruitkomst 9 Persoonlijke opdrachten:**
 
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-|--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `Onderzoek prisma/ diffractierooster spectrometer` | `Ik heb een uitgebreid onderzoek gedaan over hoe prisma's en diffractieroosters licht breken, deze natuurkundige concepten uitgelegd en onderzocht hoe hier in een spectrometer gebruik van gemaakt wordt` | [link naar spectrometer onderzoek](https://github.com/2025-TICT-TV2SE3-24-1-V/project-tl-buis/blob/main/images_onderzoek_Ruben/Onderzoek_Ruben.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
---
+Ik laat met dit onderzoek zien dat ik belangrijke feedback van Bart kan gebruiken om het onderzoek beter en leesbaarder te maken. 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Bart heeft de volgende feedback aan mij gegeven:
+
+Figuurnummer (bijv. Figuur 1).
+Korte, duidelijke titel/beschrijving van wat de afbeelding laat zien.
+- Geen ik of we in het ontwikkeldocument gebruiken.
+- Een vierde deelvraag toevoegen aan het onderzoek namelijk op welke manieren kan licht gesplitst worden. 
+- De namen van de kopjes voor de deelvragen compacter schrijven.
+- In plaats van methode kan ik het analyse noemen waar de verschillende deelvragen in beantwoord worden.
+- Ik moet het onderzoek template verwerken in het onderzoek, omdat ik kopjes als hoofdvraag, deelvragen en conclusie miste.
+- Van de verschillende elektromagnetische golven een tabel maken met de golflengtes.
+- Sommige opsommingen in de text omzetten naar bullet lists en kopjes ervan maken.
+- Bronvermelding bij plaatjes zetten, als het geen eigen afbeelding is en ook een beschrijving erbij. Plaatjes in de tekst verwerken door dingen te zeggen als "zoals te zien in figuur 1" of "geïllustreerd in figuur 1"
+- Een inhoudsopgave maken met table of contents die links naar de kopjes bevat.
+
+---
 
 **Leeruitkomst 9 Groepsopdrachten:**
 

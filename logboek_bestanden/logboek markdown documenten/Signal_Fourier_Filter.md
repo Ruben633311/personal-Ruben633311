@@ -2,3 +2,6 @@ Bij deze opdracht heb ik de code van de github gekopiëerd en in de Arduino IDE 
 
 Dit is het resultaat:
 ![alt text](image-14.png)
+
+Ik heb voor de fourier opdracht ook de eerste vier opdrachten in een notebook gemaakt over signalen. Ik had voor opdracht 5 en de digitaal filter opdracht geen tijd over om deze te maken. 
+https://colab.research.google.com/drive/1bv-f1_ykTQUZVIrtRZna9OBvi599_25q#scrollTo=fjnZCCbHePU5
