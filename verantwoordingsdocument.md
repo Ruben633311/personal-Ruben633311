@@ -589,7 +589,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `testdocumentatie documenten voor spectrometer` | `In deze documentatie heb ik een begin gemaakt aan het maken van een test report en een test report template` | [link naar testdocumentatie documenten]([http://](https://github.com/2025-TICT-TV2SE3-24-1-V/project-tl-buis/tree/main/testdocumentatie)) |
+| `testdocumentatie documenten voor spectrometer` | `In deze documentatie heb ik een begin gemaakt aan het maken van een test report en een test report template` | [link naar testdocumentatie documenten](https://github.com/2025-TICT-TV2SE3-24-1-V/project-tl-buis/tree/main/testdocumentatie) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 

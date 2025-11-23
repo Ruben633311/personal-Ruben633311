@@ -101,68 +101,68 @@ de use cases moeten vanuit het systeem zijn
 | Naam           | ``UC01 - Speler beheren``    |
 | -------------- | ------------- |
 | Actor          | Developer |
-| Doel           | Het doel van de Speler is om botsing te detecteren, de score en levens bij te houden. |
-| Samenvatting   | Deze use case beschrijft hoe de speler in de game werkt bij botsing en statistieken. |
-| Preconditie    | Het karakter is nog niet op het scherm gezet |
-| Scenario.      | 1. De gebruiker drukt op de startknop om te beginnen. <br> 2. De speler wordt op het scherm gezet. <br> 3. De knoppen sturen de input naar de speler waar de speler op reageert <br> 4. Als de speler klasse 0 levens heeft wordt hij van het scherm afgehaald <br> 5. Als de knoppen een signaal sturen dat de game weer opnieuw moet runnen dan wordt de speler weer geactiveerd. |
-| Invariant      | 1. Als de game merkt dat de speler geraakt is, dan stuurt de game een bericht hiervan. Hierdoor heeft de speler tijdelijke onkwetsbaarheid en gaat er 1 leven van de levens af. <br> 2. Als de game merkt dat de speler een munt opgepakt heeft, dan wordt bij de score 1 opgeteld. <br> 3. De knoppen sturen altijd de inputs naar de speler zodat de speler erop kan reageren. |
+| Doel           | Het doel van de Speler beheren is om botsing te detecteren, de score en levens bij te houden. |
+| Samenvatting   | Deze use case beschrijft hoe de speler in de game werkt bij botsing en welke variabelen daarbij horen. |
+| Preconditie    | De speler is nog niet op het scherm gezet |
+| Scenario.      | 1. De gebruiker drukt op de startknop om te beginnen. <br> 2. De speler wordt op het scherm gezet. <br> 3. De knoppen sturen de input naar de speler waardoor de speler beweegt <br> 4. Als de speler klasse 0 levens heeft wordt de speler van het scherm afgehaald <br> 5. Als de knoppen een signaal sturen dat de game weer opnieuw moet runnen dan wordt de speler weer geactiveerd. |
+| Invariant      | 1. Als de speler geraakt is heeft de speler tijdelijke onkwetsbaarheid en gaat er 1 leven van de levens af. <br> 2. Als de speler een munt opgepakt heeft, dan wordt bij de score 1 opgeteld. <br> 3. De knoppen sturen altijd de inputs naar de speler zodat de speler snel van richting kan veranderen. |
 | Postconditie   | De speelsessie is beëindigd doordat de speler geen levens meer heeft en wordt de speler van het scherm af gehaald.  |
 | Uitzonderingen | n.v.t |
 
 | Naam           | ``UC02 - Enemy beheren``    |
 | -------------- | ------------- |
 | Actor          | Developer |
-| Doel           | Het doel van de Enemy is om het moeilijker te maken voor de speler om de game te overleven |
+| Doel           | Het doel van de Enemy beheerder is om de snelheid, positie en projectielen van enemies te regelen en ervoor zorgen dat enemies gespawned worden en gedespawned worden. |
 | Samenvatting   | Deze use case beschrijft hoe de enemy mechanics werken in de game |
-| Preconditie    | Er staan geen enemy's op het scherm |
-| Scenario.      | 1. Als er geen enemy's op het scherm staan dan wordt een enemy gespawned, deze beweegt een kant op. <br> 2 De enemy schiet projectielen. <br> 3 De enemy verlaat het scherm en wordt buiten het scherm geplaatst en gereset. <br> 4. De enemy kan weer opnieuw gebruikt worden met andere waardes voor de positie of de projectielen, keer terug naar stap 1. |
-| Invariant      | 1a. De game stuurt een bericht naar Enemy als de speler met de enemy botste, dan verdwijnt die enemy van het scherm. |
-| Postconditie   | De enemy wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd of de enemy het scherm verlaat of het botste met de speler. |
+| Preconditie    | Er staan geen enemies op het scherm |
+| Scenario.      | 1. Als er geen enemies op het scherm staan dan wordt een enemy gespawned, deze beweegt een kant op. <br> 2 De enemy schiet projectielen. <br> 3 De enemy verlaat het scherm en wordt buiten het scherm geplaatst en gereset. <br> 4. De enemy kan weer opnieuw gebruikt worden met andere waardes voor de positie of de projectielen, keer terug naar stap 1. |
+| Invariant      | 1a. Als de speler met een enemy botste, wordt een bericht naar die enemy gestuurt en verdwijnt die enemy van het scherm. |
+| Postconditie   | De enemy wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd, de enemy het scherm verlaat of het botste met de speler. |
 | Uitzonderingen | n.v.t. |
 
-<!-- | Naam           | ``UC02 - Enemy1``    |
+| Naam           | ``UC03 - Enemy1``    |
 | -------------- | ------------- |
 | Actor          | Developer |
-| Doel           | Het doel van de Enemy is om het moeilijker te maken voor de speler om de game te overleven |
-| Samenvatting   | Deze use case beschrijft hoe de enemy mechanics werken in de game |
-| Preconditie    | Er staan geen enemy's op het scherm |
-| Scenario.      | 1. Als er geen enemy's op het scherm staan dan wordt een enemy gespawned, deze beweegt een kant op. <br> 2 De enemy schiet projectielen. <br> 3 De enemy verlaat het scherm en wordt buiten het scherm geplaatst en gereset. <br> 4. De enemy kan weer opnieuw gebruikt worden met andere waardes voor de positie of de projectielen, keer terug naar stap 1. |
-| Invariant      | 1a. De game stuurt een bericht naar Enemy als de speler met de enemy botste, dan verdwijnt die enemy van het scherm. |
-| Postconditie   | De enemy wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd of de enemy het scherm verlaat of het botste met de speler. |
-| Uitzonderingen | n.v.t. | -->
+| Doel           | Het doel van Enemy1 is om het moeilijker te maken voor de speler om de game te overleven. Dit doet Enemy1 door te bewegen en projectielen te schieten|
+| Samenvatting   | Deze use case beschrijft hoe Enemy1 mechanics werken in de game |
+| Preconditie    | Enemy1 wordt op het scherm gespawned |
+| Scenario.      | 1. Enemy1 beweegt een kant op in een rechte lijn en schiet projectielen naar voren. <br> 2 Enemy1 blijft bewegen over het scherm totdat hij het scherm verlaat of tegen de speler botst. <br> 3 Enemy1 kan weer opnieuw gebruikt worden met andere waardes voor de positie, de snelheid of de projectielen, keer terug naar stap 1. |
+| Invariant      | 1a. Als de speler met Enemy1 botste, dan verdwijnt die Enemy1 van het scherm. <br> 2a. Enemy1 blijft checken of hij buiten het scherm is of tegen de speler botst. |
+| Postconditie   | Enemy1 botst met de speler of gaat van het scherm af en verdwijnt. |
+| Uitzonderingen | n.v.t. |
 
-| Naam           | ``UC03 - Projectiel``    |
+| Naam           | ``UC04 - Projectiel``    |
 | -------------- | ------------- |
 | Actor          | Developer |
-| Doel           | Het doel van een projectiel is om de speler het projectiel te laten ontwijken door te bewegen, want anders stuurt het projectiel een bericht naar de speler dat de speler botste met een projectiel. |
+| Doel           | Het doel van een projectiel is om de speler het projectiel te laten ontwijken door te bewegen.|
 | Samenvatting   | Deze use case beschrijft hoe een projectiel in het algemeen in het spel gaat werken |
 | Preconditie    | Het projectiel is klaar om te gebruiken en staat nog niet op het scherm afgebeeld |
-| Scenario.      | 1. Een projectiel wordt vanaf de buitenkant van het scherm of vanaf een enemy geschoten. <br> 2. De game stuurt een bericht naar het projectiel als het projectiel met de speler botst, dan wordt het projectiel van het scherm afgehaald. <br> 3. De snelheid van het projectiel worden gereset zodat het projectiel opnieuw gebruikt kan worden, keer terug naar stap 1. |
-| Invariant      | Checkt of er teveel projectielen op het scherm staan, dan worden er niet meer toegevoegd tot er weer een projectiel verdwijnt. 1a. Checkt of de game een bericht stuurt dan ze met elkaar gebotst hebben. |
-| Postconditie   | Het projectiel wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd of als het projectiel het scherm verlaat of het botste met de speler. |
+| Scenario.      | 1. Een projectiel wordt vanaf de buitenkant van het scherm of vanaf een enemy geschoten. <br> 2. het projectiel beweegt een kant op met een snelheid <br> 3. Als het projectiel met de speler botst, wordt een bericht naar het specifieke projectiel gestuurd en wordt het projectiel van het scherm afgehaald. <br> 4. De snelheid en positie van het projectiel worden gereset zodat het projectiel opnieuw gebruikt kan worden, keer terug naar stap 1. |
+| Invariant      | 1a. Als er projectielen boven de maximale waarde op het scherm staan, dan worden er niet meer toegevoegd tot weer een projectiel van het scherm verdwijnt. 3a. Als de speler met een projectiel botst dan wordt een bericht gestuurt dan ze met elkaar gebotst hebben. |
+| Postconditie   | Het projectiel wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd, als het projectiel het scherm verlaat of als het botste met de speler. |
 | Uitzonderingen | n.v.t. |
 
-<!-- | Naam           | ``UC04 - Munt`    |
+| Naam           | ``UC05 - Munt`    |
 | -------------- | ------------- |
-| Actor          | Gebruiker |
-| Doel           | De gebruiker wil de game starten, spelen en een score behalen. |
-| Samenvatting   | Deze use case beschrijft hoe de gebruiker de game opstart, speelt tot alle levens op zijn en vervolgens het eindresultaat ziet.     |
-| Preconditie    | De game staat aan en wacht op input van de gebruiker, score en levens staan al op het scherm.    |
-| Scenario. | 1. Wacht totdat de startknop wordt ingedrukt. <br> 2. Zet de waardes van score op 0, levens op 3, spawn de speler, spawn projectielen en enemy's. <br> 3. Er wordt gewacht op button inputs. <br> 4. Obstakels en projectielen verschijnen op het scherm en bewegen. <br> 5. Stuur een bericht als er botsing plaatsvind tussen het karakter en een projectiel naar de speler. <br> 6. Als het derde leven op is dan komt "Game over" en de score op het scherm te staan en stopt de game loop. <br> 7. Keer terug naar stap 1. |
-| Invariant      | 1a. de "voorwaarts" knop stuurt een bericht naar de game waarna de game begint. 3a. alle knoppen blijven signalen sturen naar de game als ze ingedrukt worden. 6a. De speler klasse stuurt een signaal als het derde leven op is om "Game over", de score op het scherm te zetten en opnieuw klaar te maken voor een nieuw potje. |
-| Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de gebruiker kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken. |
-| Uitzonderingen | Als de game handmatig gestopt wordt dan stopt de game volledig. | -->
+| Actor          | Developer |
+| Doel           | De munt kan door de speler opgepakt worden, zo kan de gebruiker een score krijgen voor zijn run. |
+| Samenvatting   | De munt wordt afgebeeld op het scherm en kan opgepakt worden om 1 aan de score toe te voegen.  |
+| Preconditie    | De game staat aan en wacht op input van de gebruiker. |
+| Scenario.      | 1. Spawn een munt op het scherm, steeds op een positie anders dan de vorige. <br> 2. Als de speler botst met de munt, wordt de munt van het scherm afgehaald. <br> 3. Bij de score wordt 1 opgeteld, keer terug naar stap 1. |
+| Invariant      | 2a. Er wordt altijd gecheckt of de speler de munt aanraakt. |
+| Postconditie   | De munt is opgepakt en wordt op een andere plek gespawned. Pas bij game over wordt de munt permanent  van het scherm afgehaald. |
+| Uitzonderingen | n.v.t. |
 
-| Naam           | ``UC04 - game spelen``    |
+| Naam           | ``UC06 - game spelen``    |
 | -------------- | ------------- |
 | Actor          | Gebruiker |
 | Doel           | De gebruiker wil de game starten, spelen en een score behalen. |
 | Samenvatting   | Deze use case beschrijft hoe de gebruiker de game opstart, speelt tot alle levens op zijn en vervolgens het eindresultaat ziet.     |
-| Preconditie    | De game staat aan en wacht op input van de gebruiker, score en levens staan al op het scherm.    |
-| Scenario. | 1. Wacht totdat de startknop wordt ingedrukt. <br> 2. Zet de waardes van score op 0, levens op 3, spawn de speler, spawn projectielen en enemy's. <br> 3. Er wordt gewacht op button inputs. <br> 4. Obstakels en projectielen verschijnen op het scherm en bewegen. <br> 5. Stuur een bericht als er botsing plaatsvind tussen het karakter en een projectiel naar de speler. <br> 6. Als het derde leven op is dan komt "Game over" en de score op het scherm te staan en stopt de game loop. <br> 7. Keer terug naar stap 1. |
-| Invariant      | 1a. de "voorwaarts" knop stuurt een bericht naar de game waarna de game begint. 3a. alle knoppen blijven signalen sturen naar de game als ze ingedrukt worden. 6a. De speler klasse stuurt een signaal als het derde leven op is om "Game over", de score op het scherm te zetten en opnieuw klaar te maken voor een nieuw potje. |
+| Preconditie    | De game staat aan en wacht op input van de gebruiker. |
+| Scenario.      | 1. Wacht totdat de "voorwaarts" knop wordt ingedrukt. <br> 2. Zet de waardes van score op 0, levens op 3. <br> 3. Spawn de speler, spawn projectielen en enemies. <br> 4. De speler beweegt zich. <br> 5. Obstakels en projectielen verschijnen op het scherm en bewegen. <br> 6. Stuur een bericht als er botsing plaatsvind tussen de speler en een projectiel naar de speler beheren use case. <br> 7. Als het derde leven op is dan komt "Game over" en de score op het scherm te staan en stopt de game loop. <br> 8. Keer terug naar stap 1. |
+| Invariant      | 1a. Als de "voorwaarts" knop ingedrukt wordt bij het beginscherm, dan wordt de game opgestart. 4a. alle knoppen blijven signalen sturen naar de speler als ze ingedrukt worden. 6a. De speler klasse stuurt een signaal als het derde leven op is om "Game over", de score op het scherm te zetten en score en levens resetten voor een nieuwe run. |
 | Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de gebruiker kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken. |
-| Uitzonderingen | Als de game handmatig gestopt wordt dan stopt de game volledig. |
+| Uitzonderingen | Als de game handmatig gestopt wordt dan is de game loop niet meer oneindig. |
 
 <!-- voorbeeld -->
 <!-- | Naam           | ``UC01 - Spel starten en spelen``    |
