@@ -73,7 +73,7 @@ namespace crt
 							break;
 							}
 
-                            case State::RedLed:{
+                        case State::RedLed:{
 							// redLed.setDuty(100);
 							blinks = 0;
 							vTaskDelay(100);
@@ -85,7 +85,7 @@ namespace crt
 							break;
 							}
 
-                            case State::OrangeBlink:{
+                        case State::OrangeBlink:{
 							greenLed.setDuty(6); 
 							ESP_LOGI(TAG, "orange blink on");
 							state = State::RedBlink;
@@ -94,7 +94,7 @@ namespace crt
 							}
 							break;
 
-                            case State::RedBlink:{
+                        case State::RedBlink:{
 							greenLed.setDuty(0); 
 							redLed.setDuty(100);
 							ESP_LOGI(TAG, "red blink on");

@@ -8,19 +8,13 @@ RedLed :  entry/ redLed.setDuty(100);
 RedBlink : entry/ greenLed.setDuty(0);, redLed.setDuty(100);
 OrangeBlink: entry/ greenLed.setDuty(6);, blinks++
 
-state c1 <<choice>>
-state c2 <<choice>>
 state c3 <<choice>>
 
-GreenLed --> c1
-c1 --> OrangeLed : wait(flagKnopIngedruktA)[flagKnopIngedruktA]
-c1 ---> GreenLed : wait(flagKnopIngedruktA)[else]
+GreenLed --> OrangeLed : wait(flagKnopIngedruktA)[flagKnopIngedruktA]
 OrangeLed --> RedLed : after(3s)
-c2 ---> OrangeBlink : wait(flagKnopIngedruktB)[flagKnopIngedruktB]
+RedLed ---> OrangeBlink : wait(flagKnopIngedruktB)[flagKnopIngedruktB]
 OrangeBlink --> RedBlink : after(500ms)
 c3 -->  OrangeBlink : after(500ms)
-RedLed --> c2
-c2 --> RedLed : wait(flagKnopIngedruktB)[else]
 c3 --> GreenLed : after(500ms)[blinks == 5]
 RedBlink --> c3
 

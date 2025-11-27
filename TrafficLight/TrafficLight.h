@@ -64,7 +64,7 @@ namespace crt
 							break;
 							}
 
-                            case State::RedLed:{
+                        case State::RedLed:{
 							// redLed.setDuty(100);
 							vTaskDelay(100);
 							if (btnKlik2->isPressed()) {
@@ -74,7 +74,7 @@ namespace crt
 							break;
 							}
 
-                            case State::OrangeBlink:{
+                        case State::OrangeBlink:{
 							// gpio_set_level((gpio_num_t)PIN_GLED, 0);
 							greenLed.setDuty(6); 
 							ESP_LOGI(TAG, "orange blink on");
@@ -84,7 +84,7 @@ namespace crt
 							}
 							break;
 
-                            case State::RedBlink:{
+                        case State::RedBlink:{
 							greenLed.setDuty(0); 
 							redLed.setDuty(100);
 							// gpio_set_level((gpio_num_t)PIN_GLED, 1);

@@ -25,7 +25,7 @@ esp_err_t I2CManager::init() {
     return i2c_driver_install(i2c_port_, conf.mode, 0, 0, 0);
 }
 
-esp_err_t I2CManager::readRegister(uint8_t device_addr, uint8_t* data, size_t len) {
+esp_err_t I2CManager::readPcf(uint8_t device_addr, uint8_t* data, size_t len) {
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
     i2c_master_start(cmd);
     i2c_master_write_byte(cmd, (device_addr << 1) | I2C_MASTER_READ, true);
@@ -36,12 +36,15 @@ esp_err_t I2CManager::readRegister(uint8_t device_addr, uint8_t* data, size_t le
     return ret;
 }
 
-// esp_err_t I2CManager::writeByte(uint8_t dev_addr, uint8_t data)
-// {
-//     return i2c_master_write_to_device(I2C_NUM_0, dev_addr, &data, 1, pdMS_TO_TICKS(1000));
-// }
-
-// esp_err_t I2CManager::readByte(uint8_t dev_addr, uint8_t* data)
-// {
-//     return i2c_master_read_from_device(I2C_NUM_0, dev_addr, data, 1, pdMS_TO_TICKS(1000));
-// }
+// maak deze functie opnieuw en probeer een ledje aan of uit te zetten
+esp_err_t I2CManager::writePcf(uint8_t device_addr, uint8_t reg_addr, const uint8_t* data, size_t len) {
+    i2c_cmd_handle_t cmd = i2c_cmd_link_create();
+    i2c_master_start(cmd);
+    i2c_master_write_byte(cmd, (device_addr << 1) | I2C_MASTER_WRITE, true);
+    i2c_master_write_byte(cmd, reg_addr, true);
+    i2c_master_write(cmd, data, len, true);
+    i2c_master_stop(cmd);
+    esp_err_t ret = i2c_master_cmd_begin(i2c_port_, cmd, pdMS_TO_TICKS(100));
+    i2c_cmd_link_delete(cmd);
+    return ret;
+}

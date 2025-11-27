@@ -109,18 +109,18 @@ de use cases moeten vanuit het systeem zijn
 | Postconditie   | De speelsessie is beëindigd doordat de speler geen levens meer heeft en wordt de speler van het scherm af gehaald.  |
 | Uitzonderingen | n.v.t |
 
-| Naam           | ``UC02 - Enemy beheren``    |
+| Naam           | ``UC02 - Enemies beheren``    |
 | -------------- | ------------- |
 | Actor          | Developer |
 | Doel           | Het doel van de Enemy beheerder is om de snelheid, positie en projectielen van enemies te regelen en ervoor zorgen dat enemies gespawned worden en gedespawned worden. |
 | Samenvatting   | Deze use case beschrijft hoe de enemy mechanics werken in de game |
 | Preconditie    | Er staan geen enemies op het scherm |
-| Scenario.      | 1. Als er geen enemies op het scherm staan dan wordt een enemy gespawned, deze beweegt een kant op. <br> 2 De enemy schiet projectielen. <br> 3 De enemy verlaat het scherm en wordt buiten het scherm geplaatst en gereset. <br> 4. De enemy kan weer opnieuw gebruikt worden met andere waardes voor de positie of de projectielen, keer terug naar stap 1. |
+| Scenario.      | 1. Als er geen enemies op het scherm staan dan wordt een enemy gespawned, deze beweegt een kant op. <br> 2 De enemy verlaat het scherm en wordt buiten het scherm geplaatst en gereset. <br> 3. De enemy kan weer opnieuw gebruikt worden met andere waardes voor de positie of de projectielen, keer terug naar stap 1. |
 | Invariant      | 1a. Als de speler met een enemy botste, wordt een bericht naar die enemy gestuurt en verdwijnt die enemy van het scherm. |
 | Postconditie   | De enemy wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd, de enemy het scherm verlaat of het botste met de speler. |
 | Uitzonderingen | n.v.t. |
 
-| Naam           | ``UC03 - Enemy1``    |
+| Naam           | ``UC03 - Spawn Enemy1 ``    |
 | -------------- | ------------- |
 | Actor          | Developer |
 | Doel           | Het doel van Enemy1 is om het moeilijker te maken voor de speler om de game te overleven. Dit doet Enemy1 door te bewegen en projectielen te schieten|
@@ -131,7 +131,7 @@ de use cases moeten vanuit het systeem zijn
 | Postconditie   | Enemy1 botst met de speler of gaat van het scherm af en verdwijnt. |
 | Uitzonderingen | n.v.t. |
 
-| Naam           | ``UC04 - Projectiel``    |
+| Naam           | ``UC04 - Spawn Projectiel``    |
 | -------------- | ------------- |
 | Actor          | Developer |
 | Doel           | Het doel van een projectiel is om de speler het projectiel te laten ontwijken door te bewegen.|
@@ -142,7 +142,7 @@ de use cases moeten vanuit het systeem zijn
 | Postconditie   | Het projectiel wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd, als het projectiel het scherm verlaat of als het botste met de speler. |
 | Uitzonderingen | n.v.t. |
 
-| Naam           | ``UC05 - Munt`    |
+| Naam           | ``UC05 - Spawn Munt`    |
 | -------------- | ------------- |
 | Actor          | Developer |
 | Doel           | De munt kan door de speler opgepakt worden, zo kan de gebruiker een score krijgen voor zijn run. |
@@ -153,7 +153,7 @@ de use cases moeten vanuit het systeem zijn
 | Postconditie   | De munt is opgepakt en wordt op een andere plek gespawned. Pas bij game over wordt de munt permanent  van het scherm afgehaald. |
 | Uitzonderingen | n.v.t. |
 
-| Naam           | ``UC06 - game spelen``    |
+| Naam           | ``UC06 - Game Spelen``    |
 | -------------- | ------------- |
 | Actor          | Gebruiker |
 | Doel           | De gebruiker wil de game starten, spelen en een score behalen. |

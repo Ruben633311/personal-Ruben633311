@@ -379,7 +379,7 @@ Ik heb in het eerste deel van de opdracht gebruik gemaakt van een button.h besta
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Bart heeft naar dit item gekeken, hij vond het goed en had geen tips
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -393,7 +393,7 @@ Dit laat zien dat ik een goede STD kan maken die laat zien hoe een programma wer
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Bart heeft naar dit item gekeken, hij vond het goed en had geen tips
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -406,7 +406,7 @@ Ik heb bij dit deel geen button.h bestand maar een ButtonTask.h bestand die de t
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Bart heeft naar dit item gekeken, hij vond het goed en had geen tips.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -420,7 +420,9 @@ Dit laat zien dat ik een goede STD kan maken die laat zien hoe een programma wer
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Bart heeft naar het STD van deel 2 gekeken en hij zag dat er onnodige decision nodes in stonden die veranderd kunnen worden naar een simpele pijl met een wait erop.
+
+Ook heb ik met Bart opgezocht over hoe flags werken en heeft hij mij verteld dat een wait de macht overgeeft aan het systeem totdat de flag veranderd, dit wist ik eerst niet en maakt het duidelijker hoe de code werkt.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
