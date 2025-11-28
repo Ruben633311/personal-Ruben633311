@@ -1,10 +1,10 @@
 Ik heb bij deze opdracht een eigen speler gemaakt, een afbeelding naar een c-array omgezet na twee dagen een werkende website van een groepsgenoot te krijgen want de LVGL tool die aangeboden was werkte voor geen meter. Ik heb de snake sprite voor de speler gebruikt en ik heb een coin sprite en entiteit toegevoegd om de speler de coin te kunnen laten pakken, dit is de simpele gameplay van deze opdracht. In de terminal is de score te zien, oftewel hoeveel coins je hebt opgepakt. Verder heb ik vragen van de opdracht beantwoordt.
 
 Hier de snake sprite voor het karakter.
-![alt text](image-17.png)
+![alt text](../foto's/snake_sprite.jpg)
 
 Hier de coin sprite die ik heb gebruikt die de slang op kan pakken voor een score.
-![alt text](image-16.png)
+![alt text](../foto's/normal_coin.png)
 
 Hier de opdrachten en antwoorden:
 

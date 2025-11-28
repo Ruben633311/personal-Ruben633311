@@ -4,6 +4,5 @@ Bij deze stap: idf.py -p COM8 flash monitor, had ik niet goed gelezen dat ik moe
 
 ![ESP installatie foto](../foto's/esp%20les%201%202025-09-01%20114036.png)
 
-
 Dit is nog een foto dat laat zien de het programmeren van ESP32 en het uploaden via idf.py is gelukt.
-![ESP installatie foto](<../foto's/esp les 1 flash monitor 2025-09-04 204752.png>)
+![ESP installatie foto](../foto's/esp%20les%201%20flash%20monitor%202025-09-04%20204752.png)
