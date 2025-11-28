@@ -60,8 +60,7 @@ Hier wordt uitgelegd waarom de speficieke requirements van belang zijn en vanaf 
 Ik heb eerst gekeken welke actoren te maken hebben met het systeem: ik kwam op een opdrachtgever, developer, gebruiker en concurrent. Het bestaat uit deze actoren, de game, de knoppen, de esp-32 en de laptop. Op de pijlen staan wat de relaties tussen de systemen en actoren zijn. De game runt op de esp-32 en deze wordt gerunt met de laptop. De knoppen worden geregistreerd en dan stuurt het input naar de game waardoor het karakter hierop reageert.
 
 ``Modelleer en beschrijf de Systeem Context – gebruik een systeem context diagram. Onderdelen van binnen je System of Interest horen er niet in thuis. Een decompositie van je systeem ook niet. Zijn er geen belangrijke actoren vergeten? Tip: maak eerst met je team een mindmap (zie appendix)``
-![alt text](image.png)
-
+![alt text](../personal-Ruben633311/overige%20foto's/systeem_context_diagram_game.png)
 ### Identificatie en prioritering van Key Drivers
 Bij dit hoofdstuk heb ik feedback aan Marius gevraagd over mijn key drivers tabel. Hij heeft gezegd dat het niet van belang is om een key drivers tabel te hebben over het spel. Nu houd ik het bij een simpel key drivers tabel dat niet heel diep gaat. Hij zei dat ik meer aandacht moet geven aan het maken van use cases
 
