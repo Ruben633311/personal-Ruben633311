@@ -1,3 +1,4 @@
+```cpp
 #include "LDR.hpp"
 
 constexpr const char* LDRSensor::TAG;
@@ -20,16 +21,6 @@ void LDRSensor::start() {
     }
 }
 
-// void LDRSensor::stop() {
-//     if (running) {
-//         running_ = false;
-//             if (taskhandle != nullptr) {
-//             vTaskDelete(taskhandle);
-//             taskhandle = nullptr;
-//         }
-//     }
-// }
-
 void LDRSensor::run() {
     while(running_)
     {
@@ -45,3 +36,4 @@ void LDRSensor::taskWrapper(void* pvParameters) {
     LDRSensor* sensor = static_cast<LDRSensor*>(pvParameters);
     sensor->run();
 }
+```

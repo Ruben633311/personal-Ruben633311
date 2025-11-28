@@ -41,9 +41,9 @@
 
 Onderwerp | Graag invullen | Opmerking
 --- | --- | ---
-*Peilmoment* | `peilmoment 1/2/3/4` | Maak een keuze
-*Naam student* | `naam van de student` | 
-*Studentnummer* | `studentnummer` | 
+*Peilmoment* | `peilmoment 3` | Maak een keuze
+*Naam student* | `Ruben Kroon` | 
+*Studentnummer* | `1880525` | 
 *Datum* | `datum van oplevering` | dd-mm-jjjj 
 
 
@@ -118,43 +118,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-|--------------------|--------------------------------------------------------|--------------------------|
-| `Use Case Beschrijving` | `Voor de use case opdracht heb ik een use case beschrijving en een plantuml diagram gemaakt` | [link naar use case opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/project_use_cases) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
-Ik heb een use case bedracht voor de groepsopdracht waarvoor we een spectrometer gaan bouwen. Deze use case heb ik uitgewerkt in een beschrijving en in een plantuml diagram. De opdracht laat zien dat ik kan werken met een een use case. 
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-|--------------------|--------------------------------------------------------|--------------------------|
-| `Activity Diagram` | `Voor de activity diagram opdracht heb ik een diagram gemaakt van de werking van een spectrometer` | [link naar activity diagram opdracht](https://app.diagrams.net/?libs=general;uml#G1VLjGts3x4nuHO7bRDV-7rR6q33miHF62#%7B%22pageId%22%3A%220783ab3e-0a74-02c8-0abd-f7b4e66b4bec%22%7D) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
-Ik heb een use case bedracht voor de groepsopdracht waarvoor we een spectrometer gaan bouwen. Deze use case heb ik uitgewerkt in een activity diagram. De opdracht laat zien dat ik goed een activity diagram kan maken met een use case beschrijving. 
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
-
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-|--------------------|--------------------------------------------------------|--------------------------|
-| `Use Case Beschrijving` | `Voor de activity diagram opdracht heb ik een use case beschrijving gemaakt` | [link naar use case beschrijving opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/project_use_cases/use_case_beschrijving.md) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
-Ik heb een use case bedracht voor de groepsopdracht waarvoor we een spectrometer gaan bouwen. Deze use case heb ik uitgewerkt door na te denken hoe een zelfgemaakte spectrometer en programma in het echt zou kunnen werken. De opdracht laat zien dat ik een use case kan maken en gebruiken voor andere diagrammen. 
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
+---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `Key drivers, use case beschrijvingen en systeem context diagram in ontwikkeldocument` | `In het ontwikkeldocument heb ik key drivers, use case beschrijvingen en een systeem context diagram gemaakt voor mijn game` | [link naar ontwikkeldocument](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/ontwikkeldocument.md) |
@@ -182,6 +146,33 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 Feedback Hagen: vergeet niet de bron in de presentatie te verwerken. Dit was de enige tip die we kregen.
 
+---
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Use Case Beschrijving` | `Voor de use case opdracht heb ik een use case beschrijving en een plantuml diagram gemaakt` | [link naar use case opdracht](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/project_use_cases) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb individueel een use case gemaakt voor de groepsopdracht waarvoor we een spectrometer gaan bouwen. Deze use case heb ik uitgewerkt in een beschrijving en in een plantuml diagram. Deze use case heb ik uitgewerkt door na te denken hoe een zelfgemaakte spectrometer en programma in het echt zou kunnen werken. De opdracht laat zien dat ik een use case kan maken en gebruiken voor andere diagrammen. 
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+---
+| Portfolio-item     | Beschrijving                                           | Bewijslast               |
+|--------------------|--------------------------------------------------------|--------------------------|
+| `Activity Diagram` | `Voor de activity diagram opdracht heb ik een diagram gemaakt van de werking van een spectrometer` | [link naar activity diagram opdracht](https://app.diagrams.net/?libs=general;uml#G1VLjGts3x4nuHO7bRDV-7rR6q33miHF62#%7B%22pageId%22%3A%220783ab3e-0a74-02c8-0abd-f7b4e66b4bec%22%7D) |
+
+Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Ik heb een use case bedracht voor de groepsopdracht waarvoor we een spectrometer gaan bouwen. Deze use case heb ik uitgewerkt in een activity diagram. De opdracht laat zien dat ik goed een activity diagram kan maken met een use case beschrijving. 
+
+Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+--
+
+---
 ### Leeruitkomst 2 : Adviseren
 Student adviseert opdrachtgever na de analyse van diens vereisten en doelstellingen over de te implementeren requirements. Het advies is helder onderbouwd en gepresenteerd. Het is goed uit te leggen aan niet-ICT-ers. Het er uit voortvloeiende ontwerp is degelijk onderbouwd en helder gedocumenteerd volgens een voorgeschreven methode, goed uit te leggen aan een volgend ontwikkelteam.
 
@@ -189,7 +180,6 @@ Student adviseert opdrachtgever na de analyse van diens vereisten en doelstellin
 - Samenhang en onderbouwing kunnen geven voor de delen requirements, ontwerp en realisatie van het Team-Ontwikkeldocument, met duidelijke afwegingen van de alternatieven.
 
 ---
-
 **Leeruitkomst 2 Persoonlijke opdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -270,7 +260,7 @@ Deze opdracht laat zien dat het was gelukt om het ledje met de kleur rood aan te
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Ik heb van Bart deze feedback gekregen: Mooi! Geel ook goed uitgezocht. 
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -285,7 +275,7 @@ Deze opdracht laat zien dat ik een werkende kleuren loop kon krijgen door de cod
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Ik heb van Bart deze feedback gekregen: Mooi! Geel ook goed uitgezocht. 
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -299,7 +289,7 @@ Bij het maken van deze opdracht had ik moeite en heb ik geleerd hoe de duty cycl
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Ik heb van Bart deze feedback gekregen: Mooi! Geel ook goed uitgezocht. 
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -319,27 +309,19 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
 | `LCD drawables document` | `Ik heb een markdown document gemaakt met een soort kleine samenvatting wat ik heb gedaan voor deze opdracht` | [link naar LCD drawables document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/LCD_Drawables.md) |
-
-Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
-
-Dit document bewijst dat het is gelukt om alle vormen op het schermpje te krijgen. 
-
-Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
-
---
-
----
-| Portfolio-item     | Beschrijving                                           | Bewijslast               |
-|--------------------|--------------------------------------------------------|--------------------------|
 | `LCD drawables code` | `Ik heb bij deze opdracht in drie code bestanden gewerkt` | [link naar LCD drawables code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/LCD_drawables/main) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
+
+Dit markdown document bewijst dat het is gelukt om alle vormen op het schermpje te krijgen. 
 
 Ik heb in het display.hpp bestand functies met parameters toegevoegd. In de display.cpp heb ik deze functies gedefinieerd en in de main heb ik de functies gecalld zodat ze op het werkelijke display zichtbaar worden. Deze opdracht laat zien dat ik kan werken met C++ code en het kan aanpassen om een rechthoek of een cirkel op het scherm te krijgen.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+A work of art!
+
+feedback van Harm Snippe, 29 sep op 20:57
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -355,6 +337,10 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 Bij het maken van deze opdracht heb ik hulp gevraagd Laurens Richter. Ik wist eerst niet wat een model beschrijving was en Laurens heeft mij uitgelegd waar ik het kon vinden en hoe het ingevuld moest worden.
 
+okee, goed gewerkt
+
+feedback van Marius Versteegen, 2 nov op 15:59
+
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
@@ -368,6 +354,8 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 Ik heb aan Marius vragen gesteld over het object model en ik kreeg de volgende feedback: bij het treinverkeersregelcentrum moet er een aparte gps boundary zijn waar het centrum de locatie van de trein vandaan haalt. Bij de pijlen met de text gevaarlijkeSituatieGedetecteerd en obstakelGedetecteerd stond 'is' ervoor alsof het een vraag was maar dit klopte niet dus heb ik dit veranderd. Ook kreeg ik de tip om de text op de pijltjes met fn + f2 te zetten zodat het er beter uit ziet. Ik heb ook van Ryan, een groepgenoot feedback gekregen om de text op de pijltjes naar bijvoorbeeld object motor en van accountControl naar snelheidbeheersControl te veranderen. Ook hebben Marius en Ryan bij een paar pijltjes aangegeven dat hij de andere kant op moet richten, ik heb al dit feedback gebruikt om een betere versie van het model te maken.
 
+van de feedback van Marius heb ik geleerd dat je ook voor de snelheid twee control objecten kan gebruiken, omdat ik er één heb gebruikt.
+
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
@@ -379,7 +367,7 @@ Ik heb in het eerste deel van de opdracht gebruik gemaakt van een button.h besta
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
-Bart heeft naar dit item gekeken, hij vond het goed en had geen tips
+Bart heeft naar dit item gekeken, hij vond het goed, maar ik moest even de spacing van de state code veranderen, maar geen inhoudelijke veranderingen.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -406,7 +394,7 @@ Ik heb bij dit deel geen button.h bestand maar een ButtonTask.h bestand die de t
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
-Bart heeft naar dit item gekeken, hij vond het goed en had geen tips.
+Bart heeft naar dit item gekeken, hij vond het goed, maar ik moest even de spacing van de state code veranderen, maar geen inhoudelijke veranderingen
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -435,7 +423,15 @@ Ik heb de code in AnalogButtonReader.cpp en in de main.cpp gewijzigd zodat de th
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Netjes gewerkt. Mooi extra doxygen aanvullingen. Waarom "MAIN" in ESP_LOGI en niet TAG? is de & in de capture van de lambda nodig?
+
+Harm Snippe, 5 okt op 11:26
+
+Button LEFT range niet wat krap?
+
+Harm Snippe, 5 okt op 11:27
+
+Ik heb de ESP_LOGI aangepast met TAG, ik heb geleerd hoe de & in de lambda gebruikt kan worden maar in deze code niet nodig is. Ook heb ik de button LEFT range breder gemaakt zodat het niet kan falen als het niet precies 0 is.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -448,7 +444,15 @@ In dit document heb ik antwoord gegeven op een vraag in de opdracht en ook een f
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Netjes gewerkt. Mooi extra doxygen aanvullingen. Waarom "MAIN" in ESP_LOGI en niet TAG? is de & in de capture van de lambda nodig?
+
+Harm Snippe, 5 okt op 11:26
+
+Button LEFT range niet wat krap?
+
+Harm Snippe, 5 okt op 11:27
+
+Harm heeft het keypad document goedgekeurd.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -461,7 +465,22 @@ Deze opdracht laat zien dat ik object modellen om kan zetten tot klasse diagramm
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+feedback van duivenschreck KD:
+Mooi, kijk jezelf goed na met de volgende antwoorden, en vat samen wat je daar nog van geleerd hebt:
+https://canvas.hu.nl/courses/50166/files/5720116?wrap=1
+
+Marius Versteegen, 28 okt op 11:27
+
+Ik heb hiervan geleerd dat ik de multipliciteit bij de pijltjes misste omdat ik niet had bedacht om meerdere tiptoetsen en rgbledcontrollers in de instelcontrol te hebben en dat de tiptoetslistener andere functies heeft in het voorbeeld, dan hoe ik het had gemaakt.
+
+feedback van snoepautomaat KD:
+
+Mooi, kijk jezelf goed na met de volgende antwoorden, en vat samen wat je daar nog van geleerd hebt:
+https://canvas.hu.nl/courses/50166/files/5720043?wrap=1
+
+Marius Versteegen, 28 okt op 11:39
+
+Ik heb hiervan geleerd dat ik de listeners anders moet maken in het klassediagram. De display heeft geen listener nodig, artikelInvoerController en afrekenController hebben hun eigen listener en er is een keypadListener nodig waar meerdere control objecten een reference naar hebben en zijn functie buttonPressed kan gebruiken.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -474,7 +493,14 @@ Deze opdracht laat zien dat ik code kan uploaden die een real-time meting doet v
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Op opdracht 2 kreeg ik feedback van Bart waarbij hij het volgende uitlegde: 
+ALs het signaal verschoven wordt waardoor hij niet past, komt er een error omdat in de wiskunde een grote stap naar beneden komt aan het einde van het grafiek waardoor hoge frequenties te zien zijn. Maar Bart vond dat ik het wel in principe goed had
+
+Bij alle opdrachten dacht ik dat de signalen met sinus en cosinus gemaakt moesten worden maar bij opdracht 4 kon i = 64 - i gedaan worden zodat het lineair omhoog gaat en daarna weer lineair omlaag.
+
+Bij opdracht 5 kan je bij i = 32 het signaal op 1 zetten en de rest op nul.
+
+Ik had niet door dat ik ook zo waardes op een specifieke waarde kon zetten, maar ik heb er nu meer van geleerd en Bart heeft mij het uitgelegd.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -487,7 +513,14 @@ Deze opdracht laat zien dat ik van een klassediagram en een use case diagram een
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Goed gewerkt! Kijk jezelf goed na met de volgende antwoorden, en vat samen wat je daar nog van geleerd hebt:
+https://canvas.hu.nl/courses/50166/files/5720101?wrap=1
+
+Graag ook de git commit link erbij.
+
+Marius Versteegen, 7 nov op 16:25
+
+Ik heb hiervan geleerd dat de interface simpeler kan en dat er geen index waarde nodig is, maar dat alle instellingen onder elkaar gedaan kunnen worden. Ik heb ook geen idle state in mijn diagram, maar die zit wel in het voorbeeld.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -628,8 +661,11 @@ ik heb de ontwikkelomgeving in elkaar gezet met de handleiding. Nu heb ik een pr
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Prima!
 
+Harm Snippe, 7 sep op 11:03
+
+---
 | `Installatie 2` | `ik heb de ontwikkelomgeving verder in elkaar gezet met de handleiding en meer code gerunt om te kijken of alles werkt` | [link naar installatie opdracht 2](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/ESP%20installatie2.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -638,8 +674,11 @@ Ik heb alle code gerunt in de omgeving en het werkt allemaal. Dit betekend dat d
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Prima!
 
+Harm Snippe, 7 sep op 11:03
+
+---
 | `Gomoku document` | `Voor de gomoku opdracht heb ik een docker en een docker-compose opgezet` | [link naar het gomoku document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/gomoku.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
@@ -691,7 +730,17 @@ Ik laat met dit onderzoek zien dat ik een onderzoek kan ontwerpen, uitvoeren en 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Ik heb van Bart veel feedback op mijn onderzoek gekregen namelijk:
+- Geen ik, we en jij in het onderzoek gebruiken
+- Vierde deelvraag maken: op welke manieren kan licht gesplitst worden
+- Onderzoek template verwerken in het onderzoek
+- Deelvragen titels compacter schrijven
+- Opsomming van lijsten in de tekst omzetten naar een bullet list en kopjes ervan maken
+- Van de elektromagnetische golven een tabel maken met de golflengtes
+- Meer kopjes gebruiken om de tekst op te delen voor leesbaarheid en structuur
+- De inleiding anders schrijven volgens het template
+
+Ik heb al deze feedback in mijn onderzoek verwerkt.
 
 ---
 **Leeruitkomst 6 Groepsopdrachten:**
@@ -775,7 +824,17 @@ Ik laat met dit onderzoek zien dat ik mezelf helder kan verwoorden in een geschr
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Ik heb van Bart veel feedback op mijn onderzoek gekregen namelijk:
+- Geen ik, we en jij in het onderzoek gebruiken
+- Vierde deelvraag maken: op welke manieren kan licht gesplitst worden
+- Onderzoek template verwerken in het onderzoek
+- Deelvragen titels compacter schrijven
+- Opsomming van lijsten in de tekst omzetten naar een bullet list en kopjes ervan maken
+- Van de elektromagnetische golven een tabel maken met de golflengtes
+- Meer kopjes gebruiken om de tekst op te delen voor leesbaarheid en structuur
+- De inleiding anders schrijven volgens het template
+
+Ik heb al deze feedback in mijn onderzoek verwerkt.
 
 ---
 **Leeruitkomst 8 Groepsopdrachten:**
