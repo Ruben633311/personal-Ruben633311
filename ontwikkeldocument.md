@@ -136,7 +136,7 @@ de use cases moeten vanuit het systeem zijn
 | Doel           | Het doel van een projectiel is om de speler het projectiel te laten ontwijken door te bewegen.|
 | Samenvatting   | Deze use case beschrijft hoe een projectiel in het algemeen in het spel gaat werken |
 | Preconditie    | Het projectiel is klaar om te gebruiken en staat nog niet op het scherm afgebeeld |
-| Scenario.      | 1. Een projectiel wordt vanaf de buitenkant van het scherm of vanaf een enemy geschoten. <br> 2. het projectiel beweegt een kant op met een snelheid <br> 3. Als het projectiel met de speler botst, wordt een bericht naar het specifieke projectiel gestuurd en wordt het projectiel van het scherm afgehaald. <br> 4. De snelheid en positie van het projectiel worden gereset zodat het projectiel opnieuw gebruikt kan worden, keer terug naar stap 1. |
+| Scenario.      | 1. Een projectiel wordt vanaf de buitenkant van het scherm gespawned of vanaf een enemy geschoten. <br> 2. het projectiel beweegt een kant op met een snelheid <br> 3. Als het projectiel met de speler botst, wordt een bericht naar het specifieke projectiel gestuurd en wordt het projectiel van het scherm afgehaald. <br> 4. De snelheid en positie van het projectiel worden gereset zodat het projectiel opnieuw gebruikt kan worden, keer terug naar stap 1. |
 | Invariant      | 1a. Als er projectielen boven de maximale waarde op het scherm staan, dan worden er niet meer toegevoegd tot weer een projectiel van het scherm verdwijnt. 3a. Als de speler met een projectiel botst dan wordt een bericht gestuurt dan ze met elkaar gebotst hebben. |
 | Postconditie   | Het projectiel wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd, als het projectiel het scherm verlaat of als het botste met de speler. |
 | Uitzonderingen | n.v.t. |
@@ -158,22 +158,10 @@ de use cases moeten vanuit het systeem zijn
 | Doel           | De gebruiker wil de game starten, spelen en een score behalen. |
 | Samenvatting   | Deze use case beschrijft hoe de gebruiker de game opstart, speelt tot alle levens op zijn en vervolgens het eindresultaat ziet.     |
 | Preconditie    | De game staat aan en wacht op input van de gebruiker. |
-| Scenario.      | 1. Wacht totdat de "voorwaarts" knop wordt ingedrukt. <br> 2. Zet de waardes van score op 0, levens op 3. <br> 3. Spawn de speler, spawn projectielen en enemies. <br> 4. De speler beweegt zich. <br> 5. Obstakels en projectielen verschijnen op het scherm en bewegen. <br> 6. Stuur een bericht als er botsing plaatsvind tussen de speler en een projectiel naar de speler beheren use case. <br> 7. Als het derde leven op is dan komt "Game over" en de score op het scherm te staan en stopt de game loop. <br> 8. Keer terug naar stap 1. |
+| Scenario.      | 1. Wacht totdat de "voorwaarts" knop wordt ingedrukt. <br> 2. Zet de waardes van score op 0, levens op 3. <br> 3. Spawn de speler, projectielen en enemies. <br> 4. De speler beweegt zich. <br> 5. Obstakels en projectielen verschijnen op het scherm en bewegen. <br> 6. Stuur een bericht als er botsing plaatsvind tussen de speler en een projectiel vanaf de speler beheren use case naar de use case van de enemy of projectiel. <br> 7. Als het derde leven op is dan komt "Game over" en de score op het scherm te staan en stopt de game loop. <br> 8. Keer terug naar stap 1. |
 | Invariant      | 1a. Als de "voorwaarts" knop ingedrukt wordt bij het beginscherm, dan wordt de game opgestart. 4a. alle knoppen blijven signalen sturen naar de speler als ze ingedrukt worden. 6a. De speler klasse stuurt een signaal als het derde leven op is om "Game over", de score op het scherm te zetten en score en levens resetten voor een nieuwe run. |
 | Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de gebruiker kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken. |
 | Uitzonderingen | Als de game handmatig gestopt wordt dan is de game loop niet meer oneindig. |
-
-<!-- voorbeeld -->
-<!-- | Naam           | ``UC01 - Spel starten en spelen``    |
-| -------------- | ------------- |
-| Actor          | Gebruiker  |
-| Doel           | De gebruiker wil het spel starten, spelen en een score behalen. |
-| Samenvatting   | Deze use case beschrijft hoe de gebruiker het spel opstart, speelt tot alle levens op zijn en vervolgens het eindresultaat ziet.     |
-| Preconditie    | Het spel staat aan en wacht op input van de gebruiker, score en levens staan al op het scherm.    |
-| Scenario. | 1. De gebruiker drukt op de startknop om te beginnen <br> 2. Het spel zet de basis waardes van variabelen klaar en start de game. <br> 3. De speler beweegt de spelerkarakter met de richtingsknoppen. <br> 4. Obstakels en projectielen verschijnen op het scherm, de speler gebruikt de knoppen om levend te blijven. <br> 5. Bij botsing verliest de speler een leven. <br> 6. De speler speelt door tot alle levens op zijn.<br> 7. Als het derde leven op is dan komt "Game over" op het scherm te staan, de behaalde score en stopt de game loop. <br> 8. Het spel keert terug naar stap 1. |
-| Invariant      | 1a. Blijft op de "voorwaarts knop" controleren. 3a. Blijft op de beweeg knoppen en op de ability knop controleren. 4a. blijft controleren of het derde leven op is. Tijdens het spelen worden levens, score en invoer continu gecontroleerd en bijgewerkt. |
-| Postconditie   | De speelsessie is beëindigd. De eindscore is zichtbaar en de speler kan opnieuw beginnen door weer op de "voorwaarts" knop te drukken.   |
-| Uitzonderingen | 5a. Als de game handmatig gestopt wordt dan is de game loop niet oneindig meer en stopt het volledig   | -->
 
 ### Activity Diagrammen
 
@@ -195,11 +183,20 @@ de use cases moeten vanuit het systeem zijn
 
 `` Voeg elk object uit de objectmodellen toe in de "lijst met objecten" Let op dat de beschrijvingen niet de relatie tussen de objecten duiden, maar louter wat objecten "los bekeken" doen. Dus niet: InstelControl stuurt een signaal naar .. Maar Instelcontrol is de "dirigent" van de usecase "Instellen" (meteen link toevoegen naar die usecase).``
 
-| Object Naam   | Stereotype | Beschrijving                                                    |
-| ------------- | ---------- | --------------------------------------------------------------- |
-| InstelControl | Control    | "Dirigent" van de use case "Instellen" (zie use case Instellen) |
-| Display       | Boundary   | Stuurt display hardware aan.                                    |
-| etc..         |            |                                                                 |
+| Object Naam   | Stereotype | Beschrijving       |
+| ------------- | ---------- | ------------ |
+| PlayerControl | Control    | "Dirigent" van de use case "Speler beheren" |
+| EnemyControl | Control | "Dirigent" van de use case "Enemies beheren" |
+| ProjectileControl | Control | "Dirigent" van de use case "Spawn Projectiel" |
+| GameControl | Control | "Dirigent" van de use case "Game Spelen" |
+| ButtonControl | Control | "Dirigent" van de knoppen hardware |
+| Display | Boundary | stuurt de display hardware aan |
+| Buttons | Boundary | stuurt de knoppen hardware aan |
+| CoinEntity | Entity | bevat de informatie van de coin |
+| EnemyEntity | Entity | bevat de informatie van de enemies |
+| ProjectileEntity | Entity | bevat de informatie van de projectiles |
+| GameSettings | Entity | bevat de informatie van de constante waardes |
+| HeartSprite | Entity | bevat de informatie van de HeartSprite C array |
 
 ### Taakstructurering
 
@@ -209,21 +206,44 @@ de use cases moeten vanuit het systeem zijn
 
 `` Maak een tabel die per object taaksoort, deadline, periode en prioriteit weergeeft. Belangrijk: Deadline is zo lang mogelijk waarbij het nog net geen irritatie oplevert. Deadline <= Periode, Prioriteit is omgekeerd evenredig met deadline ``
 
-| Object Naam   | Taaksoort     | Periode | Deadline | Prioriteit |
-| ------------- | ------------- | ------- | -------- | ---------- |
-| InstelControl | Demand Driven |         | 30ms     | 1          |
-| PlusKnop      | Periodiek     | 60ms    | 60ms     | 2          |
-| etc..         |               |         |          |            |
+In onderstaand tabel heb ik gekeken naar hoe de taken bij elk object er uit zouden zien.
+
+Taakstructureringstabel NS trein opdracht:
+| Objecten | Taaksoort | Periode | Deadline | Prioriteit |
+| --- | --- | --- | --- | --- |
+| GameControl | Intern, Demand Driven |  |100ms | 3 |
+| PlayerControl | Intern, Demand Driven |  | 100ms | 3 |
+| EnemyControl | Intern, Demand Driven |  | 100ms | 3 |
+| ProjectileControl | Intern, Demand Driven |  | 50ms | 2 |
+| ButtonControl | Intern, Demand Driven |  | 50ms | 2 |
+| Display | IO, Demand Driven |  | 50ms | 2 |
+| ForwardButton | IO, Periodical | 30ms | 50ms | 1 |
+| BackwardButton | IO, Periodical | 30ms | 50ms | 1 |
+| LeftButton | IO, Periodical | 30ms | 50ms | 1 |
+| RightButton | IO, Periodical | 30ms | 50ms | 1 |
+| AbilityButton | IO, Periodical | 30ms | 50ms | 1 |
+| CoinEntity | Geen taak | - | - | - |
+| EnemyEntity | Geen taak | - | - | - |
+| ProjectileEntity | Geen taak | - | - | - |
+| GameSettings | Geen taak | - | - | - |
+| HeartSprite | Geen taak | - | - | - |
 
 #### Taken samenvoegen
 
 `` Maak een tabel waarin je laat zien welke objecten een eigen taak hebben en van welke de taken worden samenvoegd in een enkele "Taak". Noem in het laatste geval het object (bijvoorbeeld een handler) dat eigenaar wordt van die Taak als eerste.``
 
-| Taak Naam  | Object Naam                            | Taaksoort     | Periode | Deadline | Prioriteit |
-| ---------- | -------------------------------------- | ------------- | ------- | -------- | ---------- |
-| InstelTaak | InstelControl                          | Demand Driven |         | 30ms     | 1          |
-| ButtonTaak | <u>ButtonHandler</u> PlusKnop, MinKnop | Periodiek     | 60ms    | 60ms     | 2          |
-| etc..      |                                        |               |         |          |            |
+In onderstaand tabel heb ik nagedacht hoe ik de taken zou verdelen over de objecten en hoe ik ze samen kon voegen. Dit heb ik bij de lichtjes en de IO Periodical taaksoorten gedaan, omdat deze samengevoegd kunnen worden in twee Handler objecten
+
+Taken samenvoegen tabel NS trein opdracht:
+Taak | Objecten | Taaksoort | Periode | Deadline | Prioriteit |
+| --- | --- | --- | --- | --- | --- |
+| GameTaak | GameControl | Intern, Demand Driven |  |100ms | 3 |
+| PlayerTaak | PlayerControl | Intern, Demand Driven |  | 100ms | 3 |
+| EnemyTaak | EnemyControl | Intern, Demand Driven |  | 100ms | 3 |
+| ProjectileTaak | ProjectileControl | Intern, Demand Driven |  | 50ms | 2 |
+| ButtonControlTaak | ButtonControl | Intern, Demand Driven |  | 50ms | 2 |
+| DisplayTaak | Display | IO, Demand Driven |  | 50ms | 2 |
+| ButtonTaak | ButtonHandler, ForwardButton, BackwardButton, LeftButton, RightButton, AbilityButton | IO, Periodical | 30ms | 50ms | 1 |
 
 ### Klassediagrammen
 
