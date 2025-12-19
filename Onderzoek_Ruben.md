@@ -111,7 +111,7 @@ De kleur van licht is de golflengte en deze heeft een vaste frequentie waar het 
 
 Nu wordt gekeken naar de reden waarom de golflengtes van richting veranderen. De golfvergelijking formule gaat als volgt: v = f x λ. v staat voor snelheid van de golf, λ voor de golflengte en f voor de frequentie (Physics Tutorial: The Wave Equation, z.d., par. 4). Wanneer de golflengte groter wordt dan verandert de snelheid van het licht in het medium. Volgens de formule n = c / v betekent dit dat de brekingsindex n kleiner wordt. Uit de wet van Snell volgt vervolgens dat n₂ kleiner wordt terwijl n₁ en de invalshoek gelijk blijven. De brekingshoek θ₂ moet groter worden zodat de vergelijking in balans blijft. Licht met een grotere golflengte heeft een grotere brekingshoek dan licht met een kleinere golflengte. Doordat elke golflengte een andere brekingshoek heeft splitst wit licht uit tot zijn kleuren bij breking, dit wordt dispersie genoemd en wordt geïllustreerd in figuur 4.
 
-![alt text](../images/images_onderzoek_Ruben/image-3.png)
+![alt text3](../images_onderzoek_Ruben/image-3.png)
 
 Figuur 4. Voorbeeld van dispersie met een prisma.
 (GeeksforGeeks, 2025)

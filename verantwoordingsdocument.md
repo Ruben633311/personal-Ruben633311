@@ -619,6 +619,9 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
+<!-- voor de game ook simpele game test criteria en stappenplannen maken 
+ook tests met dat een ander persoon 
+-->
 
 **Leeruitkomst 4 Groepsopdrachten:**
 
@@ -632,7 +635,7 @@ In deze opdracht heb ik een begin gemaakt om een test report te maken, maar het 
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+veelbelovend echter, bij het stappenplan is het te kort. Bij elke succes criteria moet een duidelijk stappenplan komen om elk ding te testen.
 
 ---
 
@@ -889,6 +892,17 @@ Korte, duidelijke titel/beschrijving van wat de afbeelding laat zien.
 
 ---
 
+<!-- markdown-link-check-enable -->
+<!-- feedback Bart:
+samen met ruben discussie gehad over wat vierdiepende zelfleren vermogen zou zijn. dan kom je bijvoorbeeld uit op. waarom toon ik bepaald gedrag? waarom vind ik bepaalde dingen wel of niet interessant?
+
+wat vind ik ervan?
+
+introvert, extrovert.
+presenteren.
+boos worden om tafeltennis, op mezelf boos worden, mezelf naar beneden halen, in mijn gedachten zeggen dat ik slecht ben en dat ik moet stoppen met tafeltennis.
+-->
+
 **Leeruitkomst 9 Groepsopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -902,4 +916,11 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
-<!-- markdown-link-check-enable -->
+
+<!-- 
+hoe heb ik gedragen, wat heb ik gedaan.
+wat is mijn rol in de groep?
+wat ging goed in de groep?
+wat ging fout in de groep?
+wat zou ik anders doen?
+ -->
