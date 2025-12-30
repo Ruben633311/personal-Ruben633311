@@ -1,3 +1,2 @@
-cmake_minimum_required(VERSION 3.5)
-include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(i2c_sensor_project)
+idf_component_register(SRCS "main.cpp" "I2CManager.cpp"
+                       INCLUDE_DIRS ".")
