@@ -37,7 +37,7 @@
 ## Inleiding
 Het doel van het onderzoek is om meer te leren over hoe prisma's en diffractieroosters in een spectrometer werken. Door dit te onderzoeken wordt geleerd over waar de dispersieve elementen uit bestaan, welke vormen en maten er zijn, uit welke materialen ze gemaakt kunnen werken en op welke manieren ze gemaakt kunnen worden. Ook is het interessant om meer te leren over hoe licht werkt, hoe het kan breken en waarom het kan breken. Het is nodig om dit te onderzoeken voor het spectrometer project waarbij licht gebogen moet worden en gemeten moet worden zoals in figuur 1 te zien is. Zo is het makkelijker te begrijpen hoe en waarom het werkt en kan de spectrometer met meer begrip gemaakt worden. Het nut van dit project is om kennis en passie te verspreiden voor ruimte onderzoek zodat meer studenten interesse krijgen voor spectrometers en licht.
 
-![alt text](../images/images_onderzoek_Ruben/image-4.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-4.png)
 
 Figuur 1. Voorbeeld van een spectrometer.
 (What Is A Spectrometer? - GoPhotonics.com, z.d.)
@@ -81,7 +81,7 @@ De golflengtes van de elektromagnetische golf bepaalt de kleur van het zichtbaar
 
 Licht wordt gemaakt als een elektron in een atoom naar een lager niveau valt, dit laat energie los als een foton. Kwantumfysica zegt dat elektronen vaste niveaus energie hebben, dus als een elektron een niveau omlaag valt dan komt een voorspelbare hoeveelheid energie vrij. Hoe verder de elektron valt, hoe meer energie de foton heeft (Clegg, 2024, par. 10). Waar een foton uit bestaat is in figuur 2 te zien.
 
-![alt text](../images/images_onderzoek_Ruben/image-7.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-7.png)
 
 Figuur 2. Foto van hoe een elektromagnetische golf eruit ziet, waar een foton uit bestaat. 
 (Photons - EWT, 2020)
@@ -94,7 +94,7 @@ Om het concept van refractie beter te kunnen begrijpen wordt het hier nog iets d
 
 Figuur 3 illustreert hoe de hoek van het licht in het lucht medium breekt in het water medium. Het illustreert dus de refractie dat dan plaatsvindt. De invalshoek is veel groter dan de brekingshoek, omdat de brekingshoek dichter bij de normaal is.
 
-![alt text](../images/images_onderzoek_Ruben/image-1.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-1.png)
 
 Figuur 3. Voorbeeld van refractie met water.
 (Kadariya, 2025)
@@ -111,14 +111,14 @@ De kleur van licht is de golflengte en deze heeft een vaste frequentie waar het 
 
 Nu wordt gekeken naar de reden waarom de golflengtes van richting veranderen. De golfvergelijking formule gaat als volgt: v = f x λ. v staat voor snelheid van de golf, λ voor de golflengte en f voor de frequentie (Physics Tutorial: The Wave Equation, z.d., par. 4). Wanneer de golflengte groter wordt dan verandert de snelheid van het licht in het medium. Volgens de formule n = c / v betekent dit dat de brekingsindex n kleiner wordt. Uit de wet van Snell volgt vervolgens dat n₂ kleiner wordt terwijl n₁ en de invalshoek gelijk blijven. De brekingshoek θ₂ moet groter worden zodat de vergelijking in balans blijft. Licht met een grotere golflengte heeft een grotere brekingshoek dan licht met een kleinere golflengte. Doordat elke golflengte een andere brekingshoek heeft splitst wit licht uit tot zijn kleuren bij breking, dit wordt dispersie genoemd en wordt geïllustreerd in figuur 4.
 
-![alt text3](../images_onderzoek_Ruben/image-3.png)
+![alt text3](../personal-Ruben633311/images_onderzoek_Ruben/image-3.png)
 
 Figuur 4. Voorbeeld van dispersie met een prisma.
 (GeeksforGeeks, 2025)
 
 De oscillerende elektronen zenden licht dat uit fase is met het oorspronkelijke licht en daardoor interfereert het met elkaar. Hierdoor vertraagt het licht en wordt de brekingsindex groter dan één. Maar bij resonantiefrequenties kan de brekingsindex de andere kant op veranderen en minder dan één zijn (Rennie, 2013, par. 4), waardoor het lijkt alsof licht in dat medium sneller gaat. De brekingsindex van een materiaal hangt af van de kleur van het licht, omdat de elektronen in het materiaal verschillend reageren afhankelijk van hoe dicht de lichtfrequentie bij hun natuurlijke trillingsfrequentie ligt. Hoe dichter de lichtfrequentie van de natuurlijke frequentie van het materiaal ligt, hoe sterker de brekingsindex verandert. Typisch is te verwachten dat de brekingsindex dichtbij een resonantie van elektronen er zo uitziet als in figuur 5 te zien is (Rennie, 2013, par. 4).
 
-![alt text](../images/images_onderzoek_Ruben/image-2.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-2.png)
 
 Figuur 5. Hoe de brekingsindex nabij een resonantie van elektronen eruit ziet.
 (Rennie, 2013)
@@ -132,7 +132,7 @@ De kleuren die mensen kunnen zien komt door licht sensitieve cellen die kegels h
 - blauwgevoelig
 - groengevoelig
 
-![alt text](../images/images_onderzoek_Ruben/image-5.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-5.png)
 
 Figuur 6. Een scan van het netvlies, dit is lichtgevoelig weefsel dat staaf- en kegelcellen bevat die licht en kleur detecteren.
 (Clegg, 2024)
@@ -143,21 +143,21 @@ Sommige roofdieren hebben een vierde kegel type voor ultraviolet of infrarood zi
 
 Isaac Newton en Galileo hebben allebei licht gestudeerd en hebben andere ontdekkingen gedaan. Newton heeft een prisma gebruikt om zichtbaar licht in zijn kleuren te splitsen, terwijl het Galileo niet lukte om de snelheid van licht te meten. Galileo had wel ontdekt dat licht rechte lijnen volgt (Greivenkamp, 2019, 1-3), Dat het via lenzen geconcentreerd en gecontroleerd kon worden met de telescoop van Galileo zoals te zien in figuur 7 (VAVILOV, 1965, pp. 596‑615) en het kan details van objecten onthullen (Cermak, 2024, par. 4). 
 
-![alt text](../images/images_onderzoek_Ruben/image-9.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-9.png)
 
 Figuur 7. De telescoop die Galileo zelf heeft gemaakt in 1609.
 (Wink, 2025)
 
 Door uitvindingen van mensen als Thomas Young en Albert Einstein zijn er twee manieren dat het gedrag van licht uitgelegd kan worden. Meestal werkt licht als een golf met eigenschappen als golflengte en frequentie en kan er diffractie en interferentie bij licht voorkomen, hier was Thomas Young achter gekomen met het double slit experiment. Maar soms kan het gedrag van licht ook gezien worden als een deeltje dat een foton genoemd wordt, hier was Albert Einstein achter gekomen met het laten zien van het foto-elektrisch effect zoals te zien in figuur 8 (Las Cumbres Observatory, z.d.-a, par. 2). 
 
-![alt text](../images/images_onderzoek_Ruben/image-6.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-6.png)
 
 Figuur 8. Het foto-elektrisch effect ontdekt door Albert Einstein.
 (Albert Einstein Photoelectric Effect, z.d.)
 
 Thomas Young had licht door twee dunne parallelle spleten gestuurd en bedacht dat als licht deeltjes zijn zoals Newton zei, dat er dan twee lichte plekken op het scherm zou zijn na de spleten. Uiteindelijk waren er felle en donkere plekken, dit bewees dat de spleten ervoor zorgden dat licht golven met elkaar interfereerden. Als de interferentie constructief is dan komt daar een fel stuk op het scherm. Aan de andere kant als de interferentie destructief is dan cancelen de lichtgolven elkaar en komt daar een donkere plek op het scherm zoals te zien in figuur 9 (Las Cumbres Observatory, z.d.-b, par. 1).  
 
-![alt text](../images/images_onderzoek_Ruben/image-10.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-10.png)
 
 Figuur 9. Het Double Slit Experiment van Thomas Young.
 (Young’s Double Slit Experiment Introduction Worksheet For 6th Form AS Physics | Teaching Resources, z.d.)
@@ -176,7 +176,7 @@ Om te begrijpen hoe een prisma en een diffractierooster licht beïnvloeden, is h
 Er zijn twee categorieën van diffractieroosters, reflectieroosters en transmissie roosters.
 Reflectieroosters zijn gemaakt met een spiegel oppervlak met groeven. Transmissie roosters zijn transparant en laat licht door een doorzichtbaar materiaal gaan, dat geëtst is met groeven. Van deze twee categorieën kunnen geribbeld zijn zoals te zien in figuur 10, waarbij ze gemaakt worden met diamandgereedschap, waardoor ze scherpe driehoekige groeven hebben. Of ze kunnen worden gemaakt met een fotosensitief materiaal dat met interferentie patronen van licht gemaakt wordt, dit maakt het rooster glad met een groeven vorm van een sinusoïde en minder stray light oftewel wild licht (Optics, 2025, par. 12). 
 
-![alt text](../images/images_onderzoek_Ruben/image-11.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-11.png)
 
 Figuur 10. Een voorbeeld van een geribbelde reflectierooster.
 (70mm Plano Ruled Reflective Diffraction Grating For Spectrometer - LaserSE, 2022)
@@ -197,7 +197,7 @@ Er zijn vier basis typen van prisma's:
 
 Een dispersie prisma, die zorgt voor spreiding van het licht, wordt beïnvloed door de geometrie van de prisma en door zijn indexdispersiekromme. Deze index is gebaseerd op de golflengte en de index van refractie waar het prisma van gemaakt is (Introduction To Optical Prisms, z.d., par. 1).
 
-![alt text](../images/images_onderzoek_Ruben/image-3.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-3.png)
 
 Figuur 11. Voorbeeld van licht dispersie door een dispersieprisma.
 (GeeksforGeeks, 2025)
@@ -220,14 +220,14 @@ Er zijn heel veel vormen van prisma's en toepassingen. Deze worden eerst kort be
 
 Naast de benoemde soorten prisma's worden al deze vormen even benoemd. Elke van de volgende vormen prisma's hebben andere specifieke functies en applicaties waar ze in gebruikt kunnen worden, ook als ze licht met dezelfde hoeveelheid graden beïnvloeden. Gelijkzijdig dat wit licht breekt in zijn componentkleuren. Littrow dat licht met 60 graden van richting verandert zoals te zien in figuur 12. Rechte, Penta en Amici roof hoek dat licht met 90 graden van richting verandert. Half penta en Schmidt dat licht met 45 graden van richting verandert. Retroreflectors of trihedral prisma dat licht met 180 graden van richting verandert (Introduction To Optical Prisms, z.d., par. 21). 
 
-![alt text](../images/images_onderzoek_Ruben/image-13.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-13.png)
 
 Figuur 12. Voorbeeld van licht dat door een Littrow prisma van hoek veranderd wordt.
 (Introduction To Optical Prisms, z.d.)
 
 Wedge prisma dat individueel gebruikt wordt om een laserstraal een bepaalde hoek af te buigen. Rhomboïde dat de optische as verplaatst zonder de richting te veranderen zoals te zien in figuur 13. Dove prisma dat de afbeelding twee keer omdraait waardoor hij aan de andere kant op zijn kop er uit komt. Anamorfe prisma paren vergroot de diameter van de straal in één dimensie. Light pipe homogenizing rods dat niet-uniforme lichtbronnen homogeniseert. Het homogeniseren van licht betekend om de deeltjesgrootte meer gelijk te maken. Tapered light pipe homogenizing rods homogeniseert niet-uniforme lichtbronnen terwijl de uitgangs-numerieke apertuur (NA) wordt verminderd. De uitgangs-numerieke apertuur oftewel NA is de brekingsindex van het medium tussen object en objectief maal de sinus van de halve openingshoek. Dus dit soort prisma vermindert het brekingsindex, waardoor het licht net anders gebroken wordt (Introduction To Optical Prisms, z.d., par. 21).
 
-![alt text](../images/images_onderzoek_Ruben/image-14.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-14.png)
 
 Figuur 13. Voorbeeld van licht dat door een Rhomboïde prisma van optische as verplaatst wordt zonder de richting te veranderen.
 (Introduction To Optical Prisms, z.d.)
@@ -241,7 +241,7 @@ Prisma's en diffractieroosters breken allebei licht af in zijn golflengtes, maar
 
 Als licht van het ene medium naar een andere gaat, verandert de snelheid van voortplanting van licht. Dit zorgt ervoor dat het licht breekt. Als licht door een prisma gaat wordt het gebroken, deze breking van licht zorgt ervoor dat licht in verschillende kleuren splitst. De kleuren hebben allemaal een andere golflengte. De snelheid van breking hangt af aan de golflengte, daarom wordt elke kleur meer of minder gebroken. Dit zorgt er uiteindelijk voor dat het wit licht dat uit het prisma gaat opbreekt tot het spectrum van zichtbaar licht (GeeksforGeeks, 2025, par. 3). Een prisma kan dus wit licht splitsen tot een spectrum. Elke golflengte waar het wit light uit bestaat wordt minder of meer gebroken waardoor kortere golflengtes richting paars het meest gebroken worden en langere golflengtes richting rood het minst gebroken worden (Encyclopaedia Britannica, 1998, par. 1).
 
-![alt text](../images/images_onderzoek_Ruben/image-15.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-15.png)
 
 Figuur 14. Licht wordt van hoek veranderd door refractie in een prisma.
 (GeeksforGeeks, 2025)
@@ -254,7 +254,7 @@ Als licht op een diffractierooster valt dan wordt elke golflengte gediffracteerd
 
 Er is een vergelijking dat 'the grating equation heet' die best complex is maar wel helpt om te begrijpen waarom elke kleur een andere uitvalshoek heeft. Een uitvalshoek is de hoek dat het licht van het diffractierooster vandaan komt. De vergelijking is als volgt: m*λ = d(sin(α)+sin(β)). m is orde van het spectrum dus 1, 2, 3 enz. λ is de golflengte, oftewel kleur van het licht. d is de afstand tussen de groeven. α is de invalshoek van het licht en β is de uitvalshoek zoals te zien in figuur 15. In deze vergelijking is te zien dat als de golflengte λ veranderd dan moet de uitvalshoek β ook veranderen zodat de vergelijking nog gelijk is. Dus dit betekent dat verschillende kleuren verschillende uitvalshoeken hebben en dus elkaar over verschillende plaatsen versterken. Elke kleur heeft net een andere uitvalshoek waarbij interferentie plaatsvind, waardoor wit licht in een spectrum uitgespreid wordt (The Grating Equation, z.d., par. 2). 
 
-![alt text](../images/images_onderzoek_Ruben/image-16.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-16.png)
 
 Figuur 15. Voorbeeld van diffractie van licht door een rooster met geometrie.
 (The Grating Equation, z.d.)
@@ -274,7 +274,7 @@ Ook heeft een diffractierooster een breed bereik aan golflengtes die hij goed ka
 
 Er zijn veel verschillende soorten roosters, deze roosters worden allemaal op een andere manier gemaakt en/of met andere materialen gemaakt. Er zijn twee verschillende categorieën diffractieroosters die licht anders breken. Dit zijn reflectieroosters en transmissieroosters, reflectieroosters gebruiken een spiegel oppervlak met groeven, terwijl een transmissierooster uit een doorzichtig materiaal bestaat dat geëtst is met groeven. Tijdens dat het licht door het doorzichtig materiaal heen gaat wordt het licht opgebroken zoals geïllustreerd in figuur 16 (Optics, 2025, par. 12). 
 
-![alt text](../images/images_onderzoek_Ruben/image-17.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-17.png)
 
 Figuur 16. Voorbeeld van diffractie van licht door een transmissierooster.
 (Admin, 2017)
@@ -283,7 +283,7 @@ Van deze categorieën zijn er ook geribbelde en holografische roosters. Geribbel
 
 Holografische roosters worden gemaakt door met interferentiepatronen groeven te maken in een lichtgevoelig materiaal. De groeven van dit soort rooster zijn door deze manier van maken vloeiender en meer sinusvormig vergeleken met de standaard zoals te zien in figuur 17. Hierdoor wordt minder bijlicht veroorzaakt bij een meting (Optics, 2025, par. 16). De periodieke fouten, oppervlakkige onregelmatigheden en fouten in afstanden van de groeven komen veel minder voor in een holografisch rooster. Het nadeel dat holografische roosters heeft tegenover verbrande holografische roosters is dat ze minder efficiënt zijn (Carvalho, 2024, par. 10).
 
-![alt text](../images/images_onderzoek_Ruben/image-18.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-18.png)
 
 Figuur 17. Voorbeeld van diffractie van licht door een holografisch rooster, dit is te zien door de sinusvormige groeven op het oppervlak van dit soort rooster.
 (Omega Optical, 2025)
@@ -325,7 +325,7 @@ Er zijn verschillende optische methodes voor het meten van stoffen aan de hand v
 #### UV-Vis spectroscopie
 UV-Vis spectroscopie is een techniek die veranderingen in UV- en zichtbaar lichtintensiteit meet als het interacteert met materie. Deze methode onderzoekt vooral elektronenovergangen, oftewel waarbij elketronen van de ene 'ring' naar een lagere vallen. In deze opstelling passeert licht door een monster, de intensiteit van het doorgelaten licht wordt gemeten en vergeleken met de referentie-intensiteit zoals in figuur 18 te zien. De verhouding van de intensiteit van het doorgelaten licht en de referentie-intensiteit als functie van de golflengte is het resultaat van zo'n UV-Vis methode (Ultraviolet-Visible Spectroscopy (UV-Vis), z.d.).
 
-![alt text](../images/images_onderzoek_Ruben/image-4.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-4.png)
 
 Figuur 18. Voorbeeld van een UV-Vis spectrometer setup.
 (What Is A Spectrometer? - GoPhotonics.com, z.d.)
@@ -333,7 +333,7 @@ Figuur 18. Voorbeeld van een UV-Vis spectrometer setup.
 #### Infraroodspectroscopie
 Infraroodspectroscopie is een techniek waarbij infraroodstraling interacteert met materie en de absorptie, uitzending of reflectie van dat IR-licht wordt gemeten zoals in figuur 19 te zien is. Dit geeft informatie om achter de moleculaire structuur te komen waar het infraroodstraling mee interactie had. De methode gebruikt licht in het infraroodgebied met golflengten langer dan zichtbaar licht. Moleculen worden bestudeerd door hoe hun bindingen trillen wanneer IR-licht van bepaalde frequenties wordt geabsorbeerd. Het resultaat is een spectrum dat gebruikt kan worden om unieke verbindingen te onderscheiden (Pan, 2025, par. 1).
 
-![alt text](../images/images_onderzoek_Ruben/image-19.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-19.png)
 
 Figuur 19. Een schema van een IR spectrometer.
 (Elijah, 2014)
@@ -341,7 +341,7 @@ Figuur 19. Een schema van een IR spectrometer.
 #### Raman-spectroscopie
 Bij Raman-spectroscopie worden fotonen die in vibratieniveaus van een molecuul zijn aangeslagen, verstrooid zodat ze energie winnen of verliezen. Deze inelastische verstrooiing geeft informatie over de vibratiestaten van het molecuul. Een vereenvoudigd energiediagram dat deze concepten illustreert, wordt in figuur 20 weergegeven. 
 
-![alt text](../images/images_onderzoek_Ruben/image.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image.png)
 
 Figuur 20. Energie diagram van Raman-spectroscopie.
 (Introduction To Raman Spectroscopy Techniques- Oxford Instruments, z.d.)
@@ -353,7 +353,7 @@ Fluorescentiespectroscopie meet fluorescentie en dit is een proces waarbij licht
 
 Fluorescentie wordt gemeten met een spectrofluorometer. Binnen spectrofluorometers wordt een monster gestimuleerd met een specifieke golflengte en wordt de intensiteit van het uitgezonden licht over verschillende golflengten gemeten. Dit creëert een fluorescentiespectrum voor een materiaal, dat emissiepiekwaarden visualiseerd. In een spectrofluorometer wordt invallend licht verdeeld met behulp van een monochromator zoals in figuur 21 te zien is. Fluorescentiespectroscopie kan worden gebruikt om een breed scala aan monsters te meten zoals: organische materialen, halfgeleiderapparaten, opto-elektronische materialen en biologische monsters (Fluorescence Spectroscopy: Theory, Instrumentation & Uses, z.d., par. 1).
 
-![alt text](../images/images_onderzoek_Ruben/image-21.png)
+![alt text](../personal-Ruben633311/images_onderzoek_Ruben/image-21.png)
 
 Figuur 21. Een uitgebreid spectrofluorometer schema.
 (Introduction To Raman Spectroscopy Techniques- Oxford Instruments, z.d.)

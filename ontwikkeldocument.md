@@ -250,9 +250,11 @@ Taak | Objecten | Taaksoort | Periode | Deadline | Prioriteit |
 `` Ontwerp, uitgaande van de objectmodellen de bijbehorende klassediagrammen. Vergroot eventueel in latere verbeteringsronden de herbruikbaarheid en het gebruiksgemak van de klassen door het toepassen van geschikte Design Patterns of templating. Voeg de klassen ook toe in de Requirements Traceability diagrammen zodat duidelijk is welke requirements de klasse adresseert``
 
 ### STD's
-![alt text](../images/images_onderzoek_Ruben/image-3.png)
+<!-- deze moet je nog tekst bij schrijven -->
 
-![PlayerControl](../overige_foto's/PlayerControl_STD.png)
+![GameControl](../personal-Ruben633311/overige_foto's/GameControl_STD.png)
+
+![PlayerControl](../personal-Ruben633311/overige_foto's/PlayerControl_STD.png)
 
 ``Ontwerp voor elke Taak de STD van de bijbehorende klasse(n), indien van toepassing vanuit activity diagram of usecase beschrijving, protocol of anderszins. Belangrijk: alle toestanden moeten gerepresenteerd worden in het diagram. Code zonder toestanden en zonder directe invloed op de flow tussen de toestanden kunnen gerepresenteerd worden door calls naar helper-functies. Vergeet niet bovenaan een geschikte STD-interface toe te voegen``
 
