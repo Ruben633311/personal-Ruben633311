@@ -88,4 +88,3 @@ Test 9
 
 # Verwachte resultaten
 Ik verwacht dat de resultaten van alle tests goed uitkomen, want als dit zo is dan werkt de game functionaliteit goed en zou het leuk moeten zijn om te spelen. 
-<!-- schrijven welke resultaten ik verwacht -->

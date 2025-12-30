@@ -669,7 +669,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 <!-- voor de game ook simpele game test criteria en stappenplannen maken 
-ook tests met dat een ander persoon 
+ook tests met dat een ander persoon het uitvoert
 -->
 
 **Leeruitkomst 4 Groepsopdrachten:**
