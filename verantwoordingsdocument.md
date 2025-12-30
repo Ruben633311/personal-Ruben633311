@@ -567,7 +567,25 @@ Ga anders eens kijken bij Joni. Hij wil je vast met deze opdracht helpen.
 
 Ik heb deze feedback gebruikt en hulp van groepgenoot Ryan gevraagd om te helpen om werkende code te maken en uiteindelijk was het gelukt. Ik had meerdere knopjes aangesloten met lampjes erachter en kon ik een lampje aanzetten door op het knopje te drukken. 
 
-Ik heb geleerd hoe de code wel kan werken en hoe ik het moet aansluiten.
+Ryan had geholpen om mij te laten begrijpen hoe ik de opstelling per lampje moest aansluiten.
+dit was een deel van zijn feedback:
+VCC ---> resistor ---> LED ---> P0 - P7 (each LED gets its own) 
+
+ik had dit gebruikt om mijn eigen opstelling te maken, maar dan had ik gekozen om het met knoppen te doen.
+
+Toen vroeg ik af of na die pin nog naar de GND moest, maar toen vertelde Ryan dat de pin een soort van GND is en dat hij dus niet na de pin nog naar GND moet.
+
+Zoals hieronder te zien:
+
+Ruben Kroon — 1-12-2025 16:46
+nadat de energie door het lampje heen gaat, komt het dus bij zo'n pin, maar moet het daarna niet naar de GND?
+
+Ryan Smit — 1-12-2025 16:47
+Je zet de pin op low
+niet op high
+dus de pin wordt een soort van GND
+
+Ik heb zo geleerd hoe de code wel kan werken en hoe ik het moet aansluiten.
 
 ---
 
@@ -641,7 +659,7 @@ Student realiseert vanuit het ontwerp een hybride systeem met een real-time embe
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `Portfolio-item A` | `plaats hier een korte uitleg over wat je hebt gedaan` | [link naar ...](http://) |
+| `game test` | `Ik heb voor de game meerdere succes criteria gemaakt en meerdere stappenplannen gemaakt om deze te testen` | [link naar test documentatie game](http://) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
