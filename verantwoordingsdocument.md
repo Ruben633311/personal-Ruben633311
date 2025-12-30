@@ -550,7 +550,7 @@ Ik heb deze opdracht ingevelerd, maar nog geen feedback gekregen in canvas.
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `IO expander document` | `Ik heb bij deze opdracht voorbeeld code veranderd zodat de io expander gebruikt kan worden, maar ik had geen tijd om het met ledjes te kunnen gebruiken` | [link naar CYD sprites document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/IO_expander.md) |
+| `IO expander document` | `Ik heb bij deze opdracht voorbeeld code veranderd zodat de io expander gebruikt kan worden, maar ik had geen tijd om het met ledjes te kunnen gebruiken` | [link naar IO expander document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/IO_expander.md) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -573,7 +573,7 @@ Ik heb geleerd hoe de code wel kan werken en hoe ik het moet aansluiten.
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
-| `IO expander document` | `Ik heb bij deze opdracht voorbeeld code veranderd zodat de io expander gebruikt kan worden, maar ik had geen tijd om het met ledjes te kunnen gebruiken` | [link naar CYD sprites document](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/blob/main/logboek_bestanden/logboek%20markdown%20documenten/IO_expander.md) |
+| `IO expander code` | `Ik heb bij deze opdracht voorbeeld code veranderd zodat de io expander gebruikt kan worden.` | [link naar IO expander code](https://github.com/2025-TICT-TV2SE3-24-1-V/personal-Ruben633311/tree/main/I2C/main) |
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
@@ -581,7 +581,16 @@ In deze opdracht laat ik zien dat ik voorbeeldcode van een opdracht kan verander
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
---
+Ik heb feedback van Harm gekregen:
+
+Harm Snippe, 25 nov op 16:58
+
+Je zou een extra functie in de klasse moeten aanmaken en dat iets doen als: i2c.databyte(0x20, 0b00000001); om ledje 1 aan te zetten. 
+Ga anders eens kijken bij Joni. Hij wil je vast met deze opdracht helpen.
+
+Ik heb deze feedback gebruikt en hulp van groepgenoot Ryan gevraagd om te helpen om werkende code te maken en uiteindelijk was het gelukt. Ik had meerdere knopjes aangesloten met lampjes erachter en kon ik een lampje aanzetten door op het knopje te drukken. 
+
+Ik heb geleerd hoe de code wel kan werken en hoe ik het moet aansluiten.
 
 ---
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
@@ -605,6 +614,7 @@ Bij de opdracht STD snoepautomaat ArtikelInvoerControl heb ik wat feedback van m
 
 Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van deze leeruitkomst.
 
+<!-- feedback!! -->
 --
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
@@ -655,6 +665,8 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 In deze opdracht heb ik een begin gemaakt om een test report te maken, maar het laat nog niet zien dat ik heldere documentatie van tests kan maken.
 
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
+
+feedback van Bart: 
 
 veelbelovend echter, bij het stappenplan is het te kort. Bij elke succes criteria moet een duidelijk stappenplan komen om elk ding te testen.
 

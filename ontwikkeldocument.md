@@ -119,7 +119,7 @@ de use cases moeten vanuit het systeem zijn
 | Postconditie   | De enemy wordt van het scherm afgehaald en gereset als de speelsessie is beëindigd, de enemy het scherm verlaat of het botste met de speler. |
 | Uitzonderingen | n.v.t. |
 
-| Naam           | ``UC03 - Spawn Enemy1 ``    |
+| Naam           | ``UC03 - Spawn Enemy ``    |
 | -------------- | ------------- |
 | Actor          | Developer |
 | Doel           | Het doel van Enemy1 is om het moeilijker te maken voor de speler om de game te overleven. Dit doet Enemy1 door te bewegen en projectielen te schieten|
